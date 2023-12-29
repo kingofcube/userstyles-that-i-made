@@ -26,7 +26,7 @@ body {
 
 /*Elements */
     #banner {
-        background-image: url(https://i.imgvibe.com/2023/12/25/1000131853.png)
+        background-image: url(https://i.imgvibe.com/2023/12/29/1000131893.png)
     }
 #welcome {
     background: var(--element)!important;
