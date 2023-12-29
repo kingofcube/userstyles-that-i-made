@@ -1,2 +1,3 @@
-<p style="text-align: center;">What</p>
-[My Userstyles Profile](https://userstyles.world/user/thebisexual) this may be outdated btw
+my userstyles!!!!! :3
+
+[My Userstyles.world Profile](https://userstyles.world/user/thebisexual) this may be outdated btw
