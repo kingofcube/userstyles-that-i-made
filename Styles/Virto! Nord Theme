@@ -1,0 +1,279 @@
+/* ==UserStyle==
+@name         Virto! Nord Theme
+@namespace    USO Archive
+@author       Tech (thetechlover0010) and King_cube
+@description  wowie
+@version      20180601.02.35
+@license      NONE
+@preprocessor uso
+==/UserStyle== */
+@-moz-document domain("mtndew417.serv00.net") {
+:root {
+    --background-color: #2E3440;
+    --color: white;
+    --element: #3B4252;
+    --light-element: #434C5E;
+    --lighter-element: #4C566A;
+    --border: #3B4252;
+    --light-border: #434C5E;
+    --dark-blue: #8aadf4;
+    --green: #a3be8c;
+    --button: #434C5E;
+}
+body {
+    background: var(--background-color)!important;
+}
+
+/*Elements */
+  #banner {
+        background-image: url(https://i.imgvibe.com/2023/12/26/1000131871.png)
+    }
+#welcome {
+    background: var(--element)!important;
+    border-color: var(--border);
+    color: var(--color);
+}
+.shopSideBarButton {
+    background: var(--element)!important;
+    border-color: var(--border);
+    color: var(--color);
+}
+#box, #info, #navbar, #footer {
+    background: var(--element)!important;
+    color: var(--color)!important;
+    border-color: var(--border);
+}
+#subsect {
+    border-color: var(--light-border);
+}
+td {
+    background: var(--element)!important;
+}
+div[style="border: 1px solid #b57500;background-color: #ffa500;color: #fff;text-align:center;padding: 3px;margin-top:5px;"] {
+    background-color: var(--element)!important;
+    border-color: var(--border)!important;
+}
+a, a span {
+    color: var(--color)!important;
+    text-decoration: none!important;
+    word-break: break-word;
+}
+th, #navlower {
+    background: var(--light-element)!important;
+}
+.blue-button {
+    background-color: var(--dark-blue)!important;
+    color: var(--color)!important;
+    border-color: var(--border)!important;
+    padding: 3px;
+}
+.blocker, iframe[src*="https://googleads"] {
+    filter: grayscale(1);
+}
+#shopItem {
+    background-color: var(--light-element)!important;
+    border-color: var(--border)!important;
+}
+img[style*="background-image:url('speciale_ban.png');"] {
+ background-image: url(https://i.imgvibe.com/2023/12/26/1000131869.png)!important;
+}
+img[style*="background-image:url('special_ban.png');"] {
+    background-image: url(https://i.imgvibe.com/2023/12/26/1000131869.png)!important;
+}
+img[style*="background-image:url('free_ban.png');"] {
+    background-image: url(https://i.imgvibe.com/2023/12/26/1000131868.png)!important;
+}
+    img[style*="background-image:url('free_big.png');"] {
+    background-image: url(https://i.imgvibe.com/2023/12/26/1000131868.png)!important;
+    }
+    img[style*="background-image:url('speciale_big.png');"] {
+    background-image: url(https://i.imgvibe.com/2023/12/26/1000131869.png)!important;
+}
+.shopDesc {
+    color: #cad3f5;
+}
+.shopDesc .fa-money, [style="color:Green;"] {
+    color: var(--green)!important;
+}
+.shopDesc .fa-circle, [style="color:Orange;"] {
+    color: #D08770!important;
+}
+p[style="color:#44A4EE;"] {
+    color: #88c0d0!important;
+}
+input, textarea {
+    background: var(--light-element)!important;
+    border-color: var(--border)!important;
+    border-style: solid;
+    border-width: 1px;
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button {
+    background-color: var(--button)!important;
+}
+a[href="upload"].button-style {
+    font-size: 11px;
+    padding: 5px 6px 5px 6px;
+    text-decoration: none;
+}
+a[onclick*="getPage('all','', "], a[onclick*="getPage('hat','', "], a[onclick*="getPage('tool','', "], a[onclick*="getPage('tshirt','', "], a[onclick*="getPage('face','', "], a[onclick*="getPage('shirt','', "], a[onclick*="getPage('pants','', "], a[onclick*="getPage('head','', "], a[onclick*="getWall("], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('hat',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('tool',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('tshirt',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('face',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('shirt',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('pants',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('head',"], .numButtonsHolder a {
+    background-color: var(--light-element);
+    border: 1px solid var(--border);
+    padding: 1px;
+}
+.numButtonsHolder {
+    text-align: center;
+}
+.thread-title {
+    background-color: #434C5E !important;
+}
+.shopSideBarButton1 {
+background-color: #88C0D0;
+}
+p.description, .fa-thumb-tack, .fa-lock, .fa-pencil, .fa-refresh {
+    color: var(--color)!important;
+}
+.forumColumn:nth-of-type(2n+0) td {
+    background-color: #434C5E!important;
+}
+#snavbar {
+    background-color: #434C5E!important;
+}
+#rad {
+    background-color: #434C5E; 
+}
+.thread-title {
+    background-color: var(--light-element);
+}
+div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-quote-right {
+    color: var(--color)!important;
+}
+img[src="shuttle.png"] {
+    filter: brightness(3) contrast(0.8);
+}
+a.label {
+    color: white!important;
+}
+p.label {
+    color: white;
+}
+span {
+    color: var(--color)!important;
+}
+div[style="padding:10px;background-color:white;border: 1px solid black;word-wrap: break-word;"] {
+    background-color: var(--light-element)!important;
+}
+blockquote {
+    border-color: var(--light-border);
+    color: var(--color);
+}
+div[onclick*="panel('"] {
+    background-color: var(--light-element)!important;
+}
+#wall #subsect div[style="float:left;"] {
+    float: initial!important;
+    overflow: hidden;
+}
+div[style="text-align:center;height:140px;"] div[style="width:84px;margin:4px;display:inline-block;"] {
+    word-break: break-word;
+}
+div[style="float:left;text-align:center;margin-right:10px;padding-bottom: 100px;background-color:#77B9FF;border-right:1px solid black;"] {
+    background-color: var(--light-element)!important;
+}
+.crateSideBarButton, table[style="border-collapse: collapse;border-bottom: 1px solid black;border-right: 1px solid black;border-left: 1px solid rgb(0, 0, 0);border-top: 1px solid;margin-right: -1px;margin-left: -1px;"], div[style="float:left;text-align:center;margin-right:10px;padding-bottom: 100px;background-color:#77B9FF;border-right:1px solid black;"] {
+    background-color: var(--light-element)!important;
+    border-color: var(--light-border)!important;
+}
+.online {
+    color: var(--green)!important;
+}
+.offline {
+    color: #bf616a!important;
+}
+.spoiler {
+    background-color: var(--light-element)!important;
+}
+.red-button {
+    padding: 3px;
+}
+pre {
+    color: white;
+    border-left: 10px solid var(--border);
+    padding: 5px;
+    padding-top: 0px;
+    width: 94%;
+    background: var(--light-element);
+    border-radius: 5px;
+    border-top: 20px solid var(--border);
+    overflow-x: scroll;
+}
+div[style="width:44%;float:left;border:1px solid black;margin:10px 20px;padding:10px;background-color:white;"], div[style="width:44%;float:right;border:1px solid black;margin:10px 20px 0px 0px;padding:10px;background-color:white;"] {
+    background: var(--light-element)!important;
+}
+.confirm div {
+    background: var(--light-element)!important;
+    border-color: var(--border)!important;
+}
+input, textarea, td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
+    color: var(--color)!important;
+    font-size: 14px!important;
+}
+#footer {
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+
+/*custom scrollbar */
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+ ::-webkit-scrollbar-track {
+    background: var(--background);
+}
+ ::-webkit-scrollbar-thumb {
+    background: var(--light-element);
+    border-radius: 20px;
+    transition: .3s;
+}
+ ::-webkit-scrollbar-thumb:hover {
+    background: var(--lighter-element);
+    transition: .3s;
+}
+
+/*Font colors*/
+td {
+    color: var(--color)!important;
+}
+p {
+    color: var(--color)!important;
+}
+h1 {
+    font-size: 36px;
+    color: white!important;
+    margin: 5px;
+}
+h2 {
+    font-size: 30px;
+    color: white!important;
+    margin: 5px;
+}
+h3 {
+    font-size: 24px;
+    color: white!important;
+    margin: 5px;
+}
+h4 {
+    font-size: 18px;
+    color: white!important;
+    margin: 5px;
+}
+h5 {
+    font-size: 14px;
+    color: white!important;
+    margin: 5px;
+}
+h6 {
+    font-size: 12px;
+    color: white!important;
+    margin: 5px;
+}
+}
