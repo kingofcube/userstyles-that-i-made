@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           Virto! Ad Blocker
+@name           virto!adblocker
 @namespace      github.com/openstyles/stylus
 @version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    Block these pesky user-generated ads!
+@author         King_Cube
 ==/UserStyle== */
 
 @-moz-document domain("mtndew417.serv00.net") {
