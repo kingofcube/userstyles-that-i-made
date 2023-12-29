@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Fixed Button in 1 Bit Clicker
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description   the site is now usable
+@author         king_cube
+@advanced text heightSize "Set Height" 3%
+==/UserStyle== */
+
+@-moz-document domain("mtndew417.serv00.net") {
+:root {
+    --height: /*[[heightSize]]*/;;
+    height: /*[[heightSize]]*/;;
+}
+}
