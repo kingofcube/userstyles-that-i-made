@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name         Virto! Customizable
+@name         virto!customize
 @namespace    USO Archive
 @author       King_Cube
-@description  WHAT
-@version      20180601.02.35
+@description  u can change the colors lol (cant bother to make a preview)
+@version      1.0
 @license      NONE
 @preprocessor uso
 @advanced color bgcolor "Background Color" #202225
