@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Virto! Ad Blocker
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("mtndew417.serv00.net") {
+#rad {
+    display: none;
+    }
+#lad {
+    display: none;
+    }
+}
