@@ -1,0 +1,219 @@
+/* ==UserStyle==
+@name           Roblox Catppuccin Macchiato
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("roblox.com") {
+    .dark-theme .rbx-left-col {
+    background-color: #181926;
+    color: #fff;
+}
+.dark-theme .content {
+    background-color: #24273a;
+    color: #fff;
+}
+.dark-theme {
+    background-color: #24273a;
+    color: #fff;
+}
+.dark-theme .account-switcher-list .account-selection-list-item .account-selection {
+    background-color: #363a4f;
+}
+.dark-theme .account-switcher-list .account-selection-list-item .account-selection .account-switcher-icon-add, .dark-theme .account-switcher-list .account-selection-list-item .active-account .account-switcher-icon-add {
+    background: #24273a;
+    }
+    .dark-theme .rbx-header .navbar-search {
+    background-color: #1e2030;
+}
+html {
+    --btr-header-color: #181926;
+    --btr-header-text-color: #fff;
+}
+.dark-theme .section-content {
+    background-color: #363a4f;
+    color: #fff;
+}
+.dark-theme .container-footer {
+    background-color: #24273a;
+}
+.dark-theme .popover {
+    background-color: #24273a;
+    color: #fff;
+}
+.dark-theme .friends-content .avatar-card-content {
+    background-color: #363a4f;
+    color: #fff;
+}
+.dark-theme .avatar-card-btns {
+    background-color: #363a4f;
+    color: #fff;
+}
+.dark-theme .chat-main {
+    background-color: #24273a;
+}
+.dark-theme .chat-search {
+    background-color: #181926;
+}
+.dark-theme .dialogs .dialog-container .dialog-body {
+    background-color: #24273a;
+}
+.dark-theme .rbx-tab .rbx-tab-heading {
+    background-color: #363a4f;
+    color: #fff;
+}
+.dark-theme .rbx-tabs-horizontal .nav-tabs {
+    background-color: #494d64;
+    color: #fff;
+}
+.dark-theme .catalog-container .sticky .search-bars {
+    background-color: #24273a;
+}
+    .dark-theme .catalog-container .sticky .topic-container {
+    background-color: #24273a;
+}
+.dark-theme .topic-container .topic-carousel .unselected-topic {
+    background-color: #363a4f;
+}
+.btn-primary-md {
+    background-color: #a6da95;
+}
+.dark-theme .horizontal-scroller .scroller .spacer {
+    background-color: #24273a;
+}
+.dark-theme .scroller {
+    background-color: #1e2030;
+}
+.dark-theme .scroller.disabled {
+    background-color: #181926;
+}
+.dark-theme .chat-container .chat-main .chat-header {
+    background-color: #1e2030;
+}
+.dark-theme .dropdown-menu {
+    background-color: #181926;
+    color: #fff;
+}
+    .dark-theme .stack .stack-list .stack-row {
+    background-color: #363a4f;
+    color: #fff;
+}
+.dark-theme .stack .card-list .card-item {
+    background-color: #363a4f;
+}
+.dark-theme .new-badges-list .new-badges-list-container .badge-background {
+background-color: #363a4f;
+}
+.dark-theme .btn-common-play-game-lg {
+    background-color: #a6da95;
+    border-color: #a6da95;
+}
+.dark-theme .btn-growth-md {
+    background-color: #a6da95;
+    border-color: #a6da95;
+}
+.dark-theme .btn-growth-lg {
+    background-color: #a6da95;
+    border-color: #a6da95;
+}
+.shopping-cart-btn-container .shopping-cart-btn .shopping-cart-icon-container .cart-number-container {
+        background-color: #a6da95;
+}
+.dark-theme .annual-premium-takeover {
+    background-color: #24273a;
+}
+#notifications-bell-badge.bell-red-badge {
+    background-color: #ed8796;
+}
+.dark-theme .menu-vertical {
+    background-color: #363a4f;
+}
+.dark-theme .age-rating-details {
+    background-color: #1e2030;
+}
+.dark-theme .passkey-upsell-banner {
+    background-color: #363a4f;
+    }
+
+/* Avatar */
+
+.dark-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover) {
+    background-color: #363a4f;
+}
+.dark-theme .modal-dialog .modal-content {
+    background-color: #363a4f;
+}
+    .dark-theme .btn-common-play-game-lg:focus, .dark-theme .btn-common-play-game-lg:hover {
+    border-color: #a6da95;
+    }
+
+    /* Creator Hub */
+
+.css-1tas9zy-Grid-root-root {
+background-color: #181926;
+    }
+.css-hq0q2-drawerPaperBelowAppBar {
+    background-color: #181926;
+}
+.jss8 {
+    background-color: #181926;
+}
+.jss7 {
+    background-color: #181926;
+}
+.jss2 {
+    background-color: #181926;
+}
+.jss72 {
+    background-color: #1e2030;
+}
+.jss4 {
+    background-color: #181926;
+}
+.jss14 {
+    background-color: #181926;
+}
+.jss17 {
+    background-color: #1e2030;
+}
+.jss30 {
+    background-color: #181926;
+}
+.jss88 {
+    background-color: #24273a;
+}
+.jss91 {
+    background-color: #24273a;
+}
+.jss98 {
+    background-color: #24273a;
+}
+.jss209 {
+    background-color: #1e2030;
+    }
+.jss220 {
+    background-color: #1e2030;
+    }
+.jss629 {
+    background-color: #181926;
+}
+    body {
+    background-color: #181926;
+}
+.css-vr8rry-Menu-paper {
+    background: #1e2030;
+}
+.css-zd56q9-Grid-root-footer {
+background-color: #181926;
+    }
+.css-1fpn1h9-Grid-root-root {
+    background-color: #181926;
+    }
+.css-13pmxyb-Card-root {
+    border: 1px solid hwb(225 19% 78% / 0);
+    }
+.css-1onz5jk-Tabs-root-root {
+    background-color: #181926;
+    }
+}
