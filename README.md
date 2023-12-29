@@ -1,1 +1,1 @@
-[https://userstyles.world/user/thebisexual](My Userstyles Profile)
+[My Userstyles Profile](https://userstyles.world/user/thebisexual)
