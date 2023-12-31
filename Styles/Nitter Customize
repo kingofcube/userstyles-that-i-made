@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name           Nitter Customize
+@namespace      https://github.com/kingofcube/userstyles-that-i-made
+@version        1.0.0
+@description    ima let you cook
+@author         King_Cube
+@advanced color bg_color "BG Color" #0f0f0f
+@advanced color bg_elem "BG Elements" #161616
+@advanced color bg_panel "BG Panel" #161616
+@advanced color bg_overlay "BG Overlay" #161616
+@advanced color accent_color "Accent" #FF6C60
+@advanced color text_color "Text Color" #ffffff
+@advanced color ngtext_color "Nav Text Color" #FF6C60
+@advanced color tag_color "User Tag Color" #FF6C60
+@advanced color tab_color "Tab Color" #F8F8F2
+@advanced color stab_color "Selected Tab" #FF6C60
+@advanced color error_color "Error Color" #420A05
+@advanced color verf_color "Verified Icon" #1DA1F2
+==/UserStyle== */
+
+@-moz-document domain("nitter.unixfox.eu") {
+body {
+    --bg_color: /*[[bg_color]]*/;
+    --fg_color: /*[[text_color]]*/;
+    --fg_dark: /*[[tag_color]]*/;
+    --fg_nav: /*[[ngtext_color]]*/;
+    --bg_panel: /*[[bg_panel]]*/;
+    --bg_elements: /*[[bg_elem]]*/;
+    --bg_overlays: /*[[bg_overlay]]*/;
+    --accent: /*[[accent_color]]*/;
+    --accent_light:/*[[accent_color]]*/;
+    --accent_dark: /*[[accent_color]]*/;
+    --accent_border: /*[[accent_color]]*/;
+    --play_button: /*[[accent_color]]*/;
+    --play_button_hover: /*[[accent_color]]*/;
+    --more_replies_dots: /*[[accent_color]]*/;
+    --error_red: /*[[error_color]]*/;;
+    --verified_blue: /*[[verf_color]]*/;
+    --tab: /*[[tab_color]]*/;
+    --tab_selected: /*[[stab_color]]*/;
+    background-color: var(--bg_color);
+    color: var(--fg_color);
+}
+}
