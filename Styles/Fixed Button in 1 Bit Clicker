@@ -7,7 +7,7 @@
 @advanced text heightSize "Set Height" 3%
 ==/UserStyle== */
 
-@-moz-document domain("mtndew417.serv00.net") {
+@-moz-document domain("mtndew2.serv00.net") {
 :root {
     --height: /*[[heightSize]]*/;;
     height: /*[[heightSize]]*/;;
