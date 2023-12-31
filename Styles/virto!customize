@@ -20,7 +20,7 @@
 @advanced color cgreen "Green (Affects Bucks)" #68d43d
 @advanced color corange "Orange (Affects Bits)" #ffa500
 ==/UserStyle== */
-@-moz-document domain("mtndew417.serv00.net") {
+@-moz-document domain("mtndew2.serv00.net") {
 :root {
 --bkg-color: /*[[bgcolor]]*/;
 --color: /*[[tcolor]]*/;
