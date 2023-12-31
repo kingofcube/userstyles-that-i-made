@@ -9,7 +9,7 @@
 @advanced color masterC "Main Color" #663399
 @advanced color textC "Text Color (this is dependent on Main Color)" #FFFFFF
 ==/UserStyle== */
-@-moz-document domain("mtndew417.serv00.net") {
+@-moz-document domain("mtndew2.serv00.net") {
 :root {
 --bkg-color: /*[[masterC]]*/;
 --text: /*[[textC]]*/;
