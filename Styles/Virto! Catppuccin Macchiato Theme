@@ -7,7 +7,7 @@
 @license      NONE
 @preprocessor uso
 ==/UserStyle== */
-@-moz-document domain("mtndew417.serv00.net") {
+@-moz-document domain("mtndew2.serv00.net") {
 :root {
     --background-color: #181926;
     --color: #cad3f5;
