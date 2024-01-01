@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name           Bull####less TwitchQuotes
+@namespace      https://github.com/kingofcube/userstyles-that-i-made/tree/main
+@version        1.0.0
+@description    wow
+@author         King_Cube
+==/UserStyle== */
+@-moz-document domain("twitchquotes.com") {
+    .ad-block-alternative .-inner-parent {
+        display: none;
+    }
+
+    /* Financetldr */
+    .financetldr-top-bar-card .-inner-parent .-financetldr-summary {
+        display: none;
+    }
+    .financetldr-top-bar-card .-inner-parent .golden-kappa .-background {
+        display: none;
+    }
+    .financetldr-top-bar-card .-inner-parent {
+        opacity: 0;
+    }
+    .financetldr-top-bar > .-inner-parent .-financetldr-summary {
+        display: none;
+        opacity: 0;
+    }
+    .financetldr-top-bar > .-inner-parent {
+        padding: 0px;
+        margin-bottom: 0px;
+        opacity: 0;
+        display: none;
+    }
+
+    /* Social Buttons */
+    .twitch-copypasta-card > .-inner-parent .-right-column .-social-media-buttons .-facebook a {
+        display: none;
+    }
+    .twitch-copypasta-card > .-inner-parent .-right-column .-social-media-buttons .-twitter a {
+        display: none;
+    }
+}
