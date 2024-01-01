@@ -18,7 +18,7 @@
 @advanced color verf_color "Verified Icon" #1DA1F2
 ==/UserStyle== */
 
-@-moz-document domain("nitter.unixfox.eu") {
+@-moz-document domain("nitter.unixfox.eu"), domain("nitter.mint.lgbt"), domain("nitter.net"), domain("nitter.moomoo.me"), domain("nitter.esmailelbob.xyz"), domain("nitter.poast.org"), domain("nitter.cz"), domain("nitter.privacydev.net"), domain("nitter.projectsegfau.lt"), domain("nitter.in.projectsegfau.lt"), domain("nitter.us.projectsegfau.lt"), domain("nitter.eu.projectsegfau.lt"), domain("nitter.soopy.moe"), domain("nitter.rawbit.ninja"), domain("nitter.d420.de") {
 body {
     --bg_color: /*[[bg_color]]*/;
     --fg_color: /*[[text_color]]*/;
@@ -34,7 +34,7 @@ body {
     --play_button: /*[[accent_color]]*/;
     --play_button_hover: /*[[accent_color]]*/;
     --more_replies_dots: /*[[accent_color]]*/;
-    --error_red: /*[[error_color]]*/;
+    --error_red: /*[[error_color]]*/;;
     --verified_blue: /*[[verf_color]]*/;
     --tab: /*[[tab_color]]*/;
     --tab_selected: /*[[stab_color]]*/;
