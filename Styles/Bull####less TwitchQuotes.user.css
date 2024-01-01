@@ -35,7 +35,7 @@
     .twitch-copypasta-card > .-inner-parent .-right-column .-social-media-buttons .-facebook a {
         display: none;
     }
-    .twitch-copypasta-card > .-inner-parent .-right-column .-social-media-buttons .-twitter a {
+    .twitch-copypasta-card>.-inner-parent .-right-column .-social-media-buttons .-twitter {
         display: none;
     }
 }
