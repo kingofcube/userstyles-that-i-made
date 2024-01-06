@@ -78,22 +78,59 @@ background-color: @surface0!important;
     background-color: @surface1;
 border: @base;
 }
+h2 {
+    color: @subtext1!important;
+}
+.shopSideBarButton {
+    color: @subtext1!important;
+}
+h3 {
+    color: @subtext1!important;
+}
+h4 {
+    color: @subtext0!important;
+}
+h5 {
+    color: @text!important;
+}
+h6 {
+    color: @subtext0!important;
+}
+a, a span {
+    color: @text!important;
+      }
+p {
+    color: @text!important;
+      }
+span {
+    color: @subtext1!important;
+}
 p[style="color:#44A4EE;"] {
     color: @accent-color!important;
 }
 #box, #info, #navbar, #footer {
     background: var(--element)!important;
     border-color: var(--border);
+    color: @text!important;
 }
+input, textarea, td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
+    color: @text!important;
+}
+td {
+   color: @text!important;
+}
+/* Currency */
 .shopDesc .fa-money, [style="color:Green;"] {
     color: @accent-color!important;
 }
 .shopDesc .fa-circle, [style="color:Orange;"] {
     color: @accent-color!important;
 }
+/* Forum */
 .forumColumn:nth-of-type(2n+0) td {
 background-color: @surface0!important;
       }
+/* Banners */
 img[style*="background-image:url('speciale_ban.png');"] {
  background-image: url(https://i.imgvibe.com/2023/12/25/1000131855.png)!important;
 }
@@ -113,7 +150,7 @@ img[style*="background-image:url('free_ban.png');"] {
       #catppuccin(@lightFlavor, @accentColor);
     }
   }
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
       #catppuccin(@darkFlavor, @accentColor);
     }
