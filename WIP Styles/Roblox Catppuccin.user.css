@@ -69,12 +69,30 @@
  .icon-default-navigation,  .icon-nav-blog,  .icon-nav-charactercustomizer,  .icon-nav-friends,  .icon-nav-giftcards,  .icon-nav-group,  .icon-nav-home,  .icon-nav-inventory,  .icon-nav-menu,  .icon-nav-message,  .icon-nav-my-feed,  .icon-nav-notification-stream,  .icon-nav-profile,  .icon-nav-robux,  .icon-nav-search-white,  .icon-nav-settings,  .icon-nav-shop,  .icon-nav-trade {
 color: @accent-color;
       }
+ .rbx-header .text-header,  .rbx-header .text-header:active,  .rbx-header .text-header:focus,  .rbx-header .text-header:hover,  .rbx-header .text-header:link,  .rbx-header .text-header:visited {
+color: @text;
+      }
+ .voting-panel .users-vote .vote-details .vote-numbers .count-left,  .voting-panel .users-vote .vote-details .vote-numbers .count-right {
+color: @subtext0;
+      }
+ .text-lead,  .text-lead:active,  .text-lead:hover,  .text-lead:link,  .text-lead:visited,  .text-title,  .text-title:active,  .text-title:hover,  .text-title:link,  .text-title:visited {
+color: @subtext0;
+      }
  .text-link,  .text-link.small,  .text-link.small:active,  .text-link.small:link,  .text-link.small:visited,  .text-link.xsmall,  .text-link.xsmall:active,  .text-link.xsmall:link,  .text-link.xsmall:visited,  .text-link.xxsmall,  .text-link.xxsmall:active,  .text-link.xxsmall:link,  .text-link.xxsmall:visited,  .text-link:active,  .text-link:hover,  .text-link:link,  .text-link:visited,  .text-name,  .text-name.small,  .text-name.small:active,  .text-name.small:link,  .text-name.small:visited,  .text-name.xsmall,  .text-name.xsmall:active,  .text-name.xsmall:link,  .text-name.xsmall:visited,  .text-name.xxsmall,  .text-name.xxsmall:active,  .text-name.xxsmall:link,  .text-name.xxsmall:visited,  .text-name:active,  .text-name:hover,  .text-name:link,  .text-name:visited,  .vlist .list-item .list-body .list-content a,  .vlist .list-item .list-body .list-content a.small,  .vlist .list-item .list-body .list-content a.small:active,  .vlist .list-item .list-body .list-content a.small:link,  .vlist .list-item .list-body .list-content a.small:visited,  .vlist .list-item .list-body .list-content a.xsmall,  .vlist .list-item .list-body .list-content a.xsmall:active,  .vlist .list-item .list-body .list-content a.xsmall:link,  .vlist .list-item .list-body .list-content a.xsmall:visited,  .vlist .list-item .list-body .list-content a.xxsmall,  .vlist .list-item .list-body .list-content a.xxsmall:active,  .vlist .list-item .list-body .list-content a.xxsmall:link,  .vlist .list-item .list-body .list-content a.xxsmall:visited,  .vlist .list-item .list-body .list-content a:active,  .vlist .list-item .list-body .list-content a:hover,  .vlist .list-item .list-body .list-content a:link,  .vlist .list-item .list-body .list-content a:visited, .vlist .list-item .list-body .list-content  a, .vlist .list-item .list-body .list-content  a.small, .vlist .list-item .list-body .list-content  a.small:active, .vlist .list-item .list-body .list-content  a.small:link, .vlist .list-item .list-body .list-content  a.small:visited, .vlist .list-item .list-body .list-content  a.xsmall, .vlist .list-item .list-body .list-content  a.xsmall:active, .vlist .list-item .list-body .list-content  a.xsmall:link, .vlist .list-item .list-body .list-content  a.xsmall:visited, .vlist .list-item .list-body .list-content  a.xxsmall, .vlist .list-item .list-body .list-content  a.xxsmall:active, .vlist .list-item .list-body .list-content  a.xxsmall:link, .vlist .list-item .list-body .list-content  a.xxsmall:visited, .vlist .list-item .list-body .list-content  a:active, .vlist .list-item .list-body .list-content  a:hover, .vlist .list-item .list-body .list-content  a:link, .vlist .list-item .list-body .list-content  a:visited {
 color: @subtext1;
       }
 .btr-profile .btr-games-list .btr-game-button {
     background-color: @surface1;
     border-color: @surface1;
+}
+ .horizontal-scroller .scroller .spacer {
+    background-color: @base;
+}
+ .scroller {
+    background-color: @mantle;
+}
+ .scroller.disabled {
+    background-color: @crust;
 }
 .text-nav, .text-nav:hover {
 color: @text
@@ -83,7 +101,7 @@ color: @text
     background-color: @surface0;
 color: @subtext1;
 }
-.dark-theme .rbx-upgrade-now .btn-secondary-md {
+ .rbx-upgrade-now .btn-secondary-md {
     background-color: @accent-color;
 border: @accent-color;
       }
@@ -94,7 +112,7 @@ background-color: @accent-color;
         background-color: @surface0
       }
 /* Play Button */
-.btn-common-play-game-lg, .btn-common-play-game-lg:hover, btn-growth-sm:focus, .btn-growth-sm:hover, .btn-growth-sm {
+.btn-common-play-game-lg, .btn-common-play-game-lg:hover, .btn-common-play-game-lg:focus, .btn-common-play-game-lg:active, btn-growth-sm:focus, .btn-growth-sm:hover, .btn-growth-sm {
     background-color: @accent-color;
 border: @accent-color;
 color: @text;
@@ -102,9 +120,6 @@ color: @text;
 .container-footer {
     background-color: @base
       }
-.dark-theme, .light-theme {
-   background-color: @base
-}
 .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading, .rbx-tabs-horizontal .nav-tabs {
    background-color: @surface0;
       }
@@ -157,6 +172,29 @@ background-color: @green;
 border-color: @green;
 text: @text;
       }
+.chat-container .chat-main .chat-header {
+background-color: @mantle;
+color: @text;
+      }
+.btn-control-xs {
+border-color: @overlay2;
+      }
+ .chat-friend-list .chat-friend-container .chat-friend-info.read,  .chat-friend-list .chat-friend-container .chat-friend-info .read,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link {
+color: @text;
+      }
+.thumbnail-2d-container {
+background-color: @surface0;
+      }
+.stack .stack-list .stack-row {
+color: @subtext1;
+      }
+.chat-main {
+    background-color: @surface0;
+box-shadow: @overlay2;
+}
+.chat-search {
+background-color: @crust;
+      }
 .btn-alert-md, .btn-alert-md:hover {
     border-color: @red;
     color: @red;
@@ -173,7 +211,17 @@ color: @text
  .text,  .text-date-hint,  .text-default,  .text-description,  .text-footer,  .text-info,  .text-label,  .text-secondary,  p {
 color: @subtext1
       }
+.rbx-tabs-vertical .category-tabs .menu-vertical {
+    background-color: @surface0;
+color: @text;
+    }
+.menu-vertical .menu-option .menu-secondary {
+    background-color: @surface0;
+      }
 /* Addons Support */
+.btr-profile .btr-status-online {
+color: @blue;
+      }
 .roseal-menu-secondary-container {
         background-color: @mantle;
       }
@@ -182,21 +230,13 @@ color: @subtext1
       }
 }
 
-  @media (prefers-color-scheme: light) {
-    :root {
-      #catppuccin(@lightFlavor, @accentColor);
-    }
-  }
-@media (prefers-color-scheme: dark) {
-    :root {
-      #catppuccin(@darkFlavor, @accentColor);
-    }
-  }
-  :root[theme="0"] {
+  body.light-theme {
     #catppuccin(@lightFlavor, @accentColor);
+background-color: @base;
   }
-  :root[theme="1"] {
+body.dark-theme {
     #catppuccin(@darkFlavor, @accentColor);
+background-color: @base;
   }
 }
 // vim:ft=less
