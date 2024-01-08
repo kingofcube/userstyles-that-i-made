@@ -5,7 +5,7 @@
 @version 0.0.1
 @updateURL https://github.com/catppuccin/userstyles/raw/main/styles/<port-name>/catppuccin.user.css
 @supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3A<port-name>
-@description Soothing pastel theme for <port-name>
+@description Soothing pastel theme for Roblox
 @author Catppuccin
 @license MIT
 
@@ -72,6 +72,10 @@ color: @accent-color;
  .text-link,  .text-link.small,  .text-link.small:active,  .text-link.small:link,  .text-link.small:visited,  .text-link.xsmall,  .text-link.xsmall:active,  .text-link.xsmall:link,  .text-link.xsmall:visited,  .text-link.xxsmall,  .text-link.xxsmall:active,  .text-link.xxsmall:link,  .text-link.xxsmall:visited,  .text-link:active,  .text-link:hover,  .text-link:link,  .text-link:visited,  .text-name,  .text-name.small,  .text-name.small:active,  .text-name.small:link,  .text-name.small:visited,  .text-name.xsmall,  .text-name.xsmall:active,  .text-name.xsmall:link,  .text-name.xsmall:visited,  .text-name.xxsmall,  .text-name.xxsmall:active,  .text-name.xxsmall:link,  .text-name.xxsmall:visited,  .text-name:active,  .text-name:hover,  .text-name:link,  .text-name:visited,  .vlist .list-item .list-body .list-content a,  .vlist .list-item .list-body .list-content a.small,  .vlist .list-item .list-body .list-content a.small:active,  .vlist .list-item .list-body .list-content a.small:link,  .vlist .list-item .list-body .list-content a.small:visited,  .vlist .list-item .list-body .list-content a.xsmall,  .vlist .list-item .list-body .list-content a.xsmall:active,  .vlist .list-item .list-body .list-content a.xsmall:link,  .vlist .list-item .list-body .list-content a.xsmall:visited,  .vlist .list-item .list-body .list-content a.xxsmall,  .vlist .list-item .list-body .list-content a.xxsmall:active,  .vlist .list-item .list-body .list-content a.xxsmall:link,  .vlist .list-item .list-body .list-content a.xxsmall:visited,  .vlist .list-item .list-body .list-content a:active,  .vlist .list-item .list-body .list-content a:hover,  .vlist .list-item .list-body .list-content a:link,  .vlist .list-item .list-body .list-content a:visited, .vlist .list-item .list-body .list-content  a, .vlist .list-item .list-body .list-content  a.small, .vlist .list-item .list-body .list-content  a.small:active, .vlist .list-item .list-body .list-content  a.small:link, .vlist .list-item .list-body .list-content  a.small:visited, .vlist .list-item .list-body .list-content  a.xsmall, .vlist .list-item .list-body .list-content  a.xsmall:active, .vlist .list-item .list-body .list-content  a.xsmall:link, .vlist .list-item .list-body .list-content  a.xsmall:visited, .vlist .list-item .list-body .list-content  a.xxsmall, .vlist .list-item .list-body .list-content  a.xxsmall:active, .vlist .list-item .list-body .list-content  a.xxsmall:link, .vlist .list-item .list-body .list-content  a.xxsmall:visited, .vlist .list-item .list-body .list-content  a:active, .vlist .list-item .list-body .list-content  a:hover, .vlist .list-item .list-body .list-content  a:link, .vlist .list-item .list-body .list-content  a:visited {
 color: @subtext1;
       }
+.btr-profile .btr-games-list .btr-game-button {
+    background-color: @surface1;
+    border-color: @surface1;
+}
 .text-nav, .text-nav:hover {
 color: @text
       }
