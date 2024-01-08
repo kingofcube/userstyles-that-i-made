@@ -66,9 +66,23 @@
 .content {
     background-color: @base
 }
+ .icon-default-navigation,  .icon-nav-blog,  .icon-nav-charactercustomizer,  .icon-nav-friends,  .icon-nav-giftcards,  .icon-nav-group,  .icon-nav-home,  .icon-nav-inventory,  .icon-nav-menu,  .icon-nav-message,  .icon-nav-my-feed,  .icon-nav-notification-stream,  .icon-nav-profile,  .icon-nav-robux,  .icon-nav-search-white,  .icon-nav-settings,  .icon-nav-shop,  .icon-nav-trade {
+color: @accent-color;
+      }
+ .text-link,  .text-link.small,  .text-link.small:active,  .text-link.small:link,  .text-link.small:visited,  .text-link.xsmall,  .text-link.xsmall:active,  .text-link.xsmall:link,  .text-link.xsmall:visited,  .text-link.xxsmall,  .text-link.xxsmall:active,  .text-link.xxsmall:link,  .text-link.xxsmall:visited,  .text-link:active,  .text-link:hover,  .text-link:link,  .text-link:visited,  .text-name,  .text-name.small,  .text-name.small:active,  .text-name.small:link,  .text-name.small:visited,  .text-name.xsmall,  .text-name.xsmall:active,  .text-name.xsmall:link,  .text-name.xsmall:visited,  .text-name.xxsmall,  .text-name.xxsmall:active,  .text-name.xxsmall:link,  .text-name.xxsmall:visited,  .text-name:active,  .text-name:hover,  .text-name:link,  .text-name:visited,  .vlist .list-item .list-body .list-content a,  .vlist .list-item .list-body .list-content a.small,  .vlist .list-item .list-body .list-content a.small:active,  .vlist .list-item .list-body .list-content a.small:link,  .vlist .list-item .list-body .list-content a.small:visited,  .vlist .list-item .list-body .list-content a.xsmall,  .vlist .list-item .list-body .list-content a.xsmall:active,  .vlist .list-item .list-body .list-content a.xsmall:link,  .vlist .list-item .list-body .list-content a.xsmall:visited,  .vlist .list-item .list-body .list-content a.xxsmall,  .vlist .list-item .list-body .list-content a.xxsmall:active,  .vlist .list-item .list-body .list-content a.xxsmall:link,  .vlist .list-item .list-body .list-content a.xxsmall:visited,  .vlist .list-item .list-body .list-content a:active,  .vlist .list-item .list-body .list-content a:hover,  .vlist .list-item .list-body .list-content a:link,  .vlist .list-item .list-body .list-content a:visited, .vlist .list-item .list-body .list-content  a, .vlist .list-item .list-body .list-content  a.small, .vlist .list-item .list-body .list-content  a.small:active, .vlist .list-item .list-body .list-content  a.small:link, .vlist .list-item .list-body .list-content  a.small:visited, .vlist .list-item .list-body .list-content  a.xsmall, .vlist .list-item .list-body .list-content  a.xsmall:active, .vlist .list-item .list-body .list-content  a.xsmall:link, .vlist .list-item .list-body .list-content  a.xsmall:visited, .vlist .list-item .list-body .list-content  a.xxsmall, .vlist .list-item .list-body .list-content  a.xxsmall:active, .vlist .list-item .list-body .list-content  a.xxsmall:link, .vlist .list-item .list-body .list-content  a.xxsmall:visited, .vlist .list-item .list-body .list-content  a:active, .vlist .list-item .list-body .list-content  a:hover, .vlist .list-item .list-body .list-content  a:link, .vlist .list-item .list-body .list-content  a:visited {
+color: @subtext1;
+      }
+.text-nav, .text-nav:hover {
+color: @text
+      }
 .section-content {
-    background-color: @surface0
+    background-color: @surface0;
+color: @subtext1;
 }
+.dark-theme .rbx-upgrade-now .btn-secondary-md {
+    background-color: @accent-color;
+border: @accent-color;
+      }
 .btn-toggle.on {
 background-color: @accent-color;
       }
@@ -76,9 +90,10 @@ background-color: @accent-color;
         background-color: @surface0
       }
 /* Play Button */
-.btn-common-play-game-lg, .btn-common-play-game-lg:hover {
+.btn-common-play-game-lg, .btn-common-play-game-lg:hover, btn-growth-sm:focus, .btn-growth-sm:hover, .btn-growth-sm {
     background-color: @accent-color;
 border: @accent-color;
+color: @text;
       }
 .container-footer {
     background-color: @base
@@ -101,8 +116,25 @@ border-color: @surface1;
     color: @text;
       }
 #notifications-bell-badge.bell-red-badge {
-    background-color: @red;
+    background-color: @accent-color;
     color: @text;
+}
+.modal-dialog .modal-content {
+    background-color: @surface0;
+    color: @text;
+}
+.modal-dialog .modal-content .modal-body, .modal-dialog .modal-content .modal-top-body {
+    color: @text;
+}
+.modal-dialog .modal-content .modal-header {
+    border-color: @surface1;
+}
+.open .dropdown-menu {
+    background-color: @base
+      }
+.annual-premium-takeover.page-refined, .annual-premium-takeover {
+    color: @text;
+background-color: @base;
 }
 .new-badges-list .new-badges-list-container .badge-background {
    background-color: @surface1;
@@ -125,8 +157,20 @@ text: @text;
     border-color: @red;
     color: @red;
 }
+.popover {
+   background-color: @surface0;
+}
+.border, .border-bottom, .border-left, .border-right, .border-top {
+    border-color: @surface1;
+      }
+.people-list .friend .friend-link, .people-list .friend .friend-link:hover {
+color: @text
+      }
+ .text,  .text-date-hint,  .text-default,  .text-description,  .text-footer,  .text-info,  .text-label,  .text-secondary,  p {
+color: @subtext1
+      }
 /* Addons Support */
-.dark-theme .roseal-menu-secondary-container {
+.roseal-menu-secondary-container {
         background-color: @mantle;
       }
 .accounts-popover .accounts-manager-header {
