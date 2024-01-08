@@ -69,6 +69,12 @@
 .section-content {
     background-color: @surface0
 }
+.btn-toggle.on {
+background-color: @accent-color;
+      }
+.menu-vertical {
+        background-color: @surface0
+      }
 /* Play Button */
 .btn-common-play-game-lg, .btn-common-play-game-lg:hover {
     background-color: @accent-color;
@@ -81,27 +87,50 @@ border: @accent-color;
    background-color: @base
 }
 .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading, .rbx-tabs-horizontal .nav-tabs {
-   background-color: @surface0
+   background-color: @surface0;
       }
 .stack .stack-list .stack-row, .stack .card-list .card-item {
-   background-color: @surface0
+   background-color: @surface0;
       }
 .btr-gamedetails #store .store-cards .store-card {
 border-color: @surface1;
       }
-.dark-theme .input-field {
+.input-field {
     background-color: @crust;
     border-color: @mantle;
     color: @text;
       }
-.rbx-left-col li .text-nav:active, .dark-theme .rbx-left-col li .text-nav:link, .dark-theme .rbx-left-col li .text-nav:visited {
+#notifications-bell-badge.bell-red-badge {
+    background-color: @red;
+    color: @text;
+}
+.new-badges-list .new-badges-list-container .badge-background {
+   background-color: @surface1;
+      }
+.rbx-left-col li .text-nav:active, .rbx-left-col li .text-nav:link, .rbx-left-col li .text-nav:visited {
     color: @subtext1;
 }
 #nav-blog:hover,  #nav-character:hover,  #nav-friends:hover,  #nav-group:hover,  #nav-home:hover,  #nav-inventory:hover,  #nav-message:hover,  #nav-my-feed:hover,  #nav-profile:hover,  #nav-shop:hover,  #nav-trade:hover {
     color: @text
 }
-.dark-theme #buy-robux-popover-menu li a, .dark-theme #settings-popover-menu li a, .dark-theme .dropdown-menu {
+#buy-robux-popover-menu li a, #settings-popover-menu li a, .dropdown-menu {
    background-color: @surface0
+      }
+.btn-growth-xs, .btn-growth-xs:hover {
+background-color: @green;
+border-color: @green;
+text: @text;
+      }
+.btn-alert-md, .btn-alert-md:hover {
+    border-color: @red;
+    color: @red;
+}
+/* Addons Support */
+.dark-theme .roseal-menu-secondary-container {
+        background-color: @mantle;
+      }
+.accounts-popover .accounts-manager-header {
+    background-color: @mantle;
       }
 }
 
