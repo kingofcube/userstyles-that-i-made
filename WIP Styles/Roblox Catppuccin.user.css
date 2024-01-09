@@ -85,10 +85,9 @@ background-color: @overlay2;
  .text-link,  .text-link.small,  .text-link.small:active,  .text-link.small:link,  .text-link.small:visited,  .text-link.xsmall,  .text-link.xsmall:active,  .text-link.xsmall:link,  .text-link.xsmall:visited,  .text-link.xxsmall,  .text-link.xxsmall:active,  .text-link.xxsmall:link,  .text-link.xxsmall:visited,  .text-link:active,  .text-link:hover,  .text-link:link,  .text-link:visited,  .text-name,  .text-name.small,  .text-name.small:active,  .text-name.small:link,  .text-name.small:visited,  .text-name.xsmall,  .text-name.xsmall:active,  .text-name.xsmall:link,  .text-name.xsmall:visited,  .text-name.xxsmall,  .text-name.xxsmall:active,  .text-name.xxsmall:link,  .text-name.xxsmall:visited,  .text-name:active,  .text-name:hover,  .text-name:link,  .text-name:visited,  .vlist .list-item .list-body .list-content a,  .vlist .list-item .list-body .list-content a.small,  .vlist .list-item .list-body .list-content a.small:active,  .vlist .list-item .list-body .list-content a.small:link,  .vlist .list-item .list-body .list-content a.small:visited,  .vlist .list-item .list-body .list-content a.xsmall,  .vlist .list-item .list-body .list-content a.xsmall:active,  .vlist .list-item .list-body .list-content a.xsmall:link,  .vlist .list-item .list-body .list-content a.xsmall:visited,  .vlist .list-item .list-body .list-content a.xxsmall,  .vlist .list-item .list-body .list-content a.xxsmall:active,  .vlist .list-item .list-body .list-content a.xxsmall:link,  .vlist .list-item .list-body .list-content a.xxsmall:visited,  .vlist .list-item .list-body .list-content a:active,  .vlist .list-item .list-body .list-content a:hover,  .vlist .list-item .list-body .list-content a:link,  .vlist .list-item .list-body .list-content a:visited, .vlist .list-item .list-body .list-content  a, .vlist .list-item .list-body .list-content  a.small, .vlist .list-item .list-body .list-content  a.small:active, .vlist .list-item .list-body .list-content  a.small:link, .vlist .list-item .list-body .list-content  a.small:visited, .vlist .list-item .list-body .list-content  a.xsmall, .vlist .list-item .list-body .list-content  a.xsmall:active, .vlist .list-item .list-body .list-content  a.xsmall:link, .vlist .list-item .list-body .list-content  a.xsmall:visited, .vlist .list-item .list-body .list-content  a.xxsmall, .vlist .list-item .list-body .list-content  a.xxsmall:active, .vlist .list-item .list-body .list-content  a.xxsmall:link, .vlist .list-item .list-body .list-content  a.xxsmall:visited, .vlist .list-item .list-body .list-content  a:active, .vlist .list-item .list-body .list-content  a:hover, .vlist .list-item .list-body .list-content  a:link, .vlist .list-item .list-body .list-content  a:visited {
 color: @accent-color;
       }
-.btr-profile .btr-games-list .btr-game-button {
-    background-color: @surface1;
-    border-color: @surface1;
-}
+a, a:active, a:focus, a:hover, a:link, a:visited {
+color: @text;
+      }
  .horizontal-scroller .scroller .spacer {
     background-color: @base;
 }
@@ -196,6 +195,9 @@ background-color: @crust;
  .chat-friend-list .chat-friend-container .chat-friend-info.read,  .chat-friend-list .chat-friend-container .chat-friend-info .read,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link {
 color: @text;
       }
+.game-card-info .info-label {
+color: @subtext1;
+      }
 .chat-container .chat-main .chat-header {
 background-color: @mantle;
 color: @text;
@@ -250,6 +252,16 @@ color: @text!important;
 background-color: @base!important;
 color: @text!important;
       }
+.btr-profile .btr-games-list .btr-game-button {
+    background-color: @surface1;
+    border-color: @surface1;
+}
+.ropro-cloud-play-container {
+background-color: @surface0!important;
+      }
+.ropro-cloud-play-tooltip {
+background-color: @mantle!important;
+}
  .view-thumbnail-asset-container .btn-view-thumbnail-asset.carousel-controls,  .view-thumbnail-asset-container .btn-alt-text.carousel-controls,  .alt-text-container .btn-view-thumbnail-asset.carousel-controls,  .alt-text-container .btn-alt-text.carousel-controls {
       background-color: @transmantle;
       }
