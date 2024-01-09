@@ -81,8 +81,23 @@ border: @base;
 h2 {
     color: @subtext1!important;
 }
+.dropdown-content a:hover {
+    background-color: @accent-color!important;
+}
 .shopSideBarButton {
     color: @subtext1!important;
+}
+.offline {
+    color: @red!important;
+}
+.online {
+    color: @green!important;
+}
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button {
+    color: @text!important;
+}
+div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-quote-right {
+    color: @red!important;
 }
 h3 {
     color: @subtext1!important;
@@ -155,10 +170,10 @@ img[style*="background-image:url('free_ban.png');"] {
       #catppuccin(@darkFlavor, @accentColor);
     }
   }
-  :root[data-theme="dark"] {
+  body.light-theme {
     #catppuccin(@lightFlavor, @accentColor);
   }
-  :root[data-theme="light"] {
+  body.dark-theme {
     #catppuccin(@darkFlavor, @accentColor);
   }
 }
