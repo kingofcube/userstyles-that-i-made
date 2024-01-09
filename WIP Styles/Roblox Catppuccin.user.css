@@ -51,6 +51,7 @@
     @surface1: @catppuccin[@@lookup][@surface1];
     @surface0: @catppuccin[@@lookup][@surface0];
     @base: @catppuccin[@@lookup][@base];
+    @transmantle: fadeout(@mantle, 45%);
     @mantle: @catppuccin[@@lookup][@mantle];
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
@@ -203,6 +204,9 @@ color: @text;
     border-color: @red;
     color: @red;
 }
+.carousel-controls.btn-primary-md, .carousel-controls.btn-primary-md {
+background-color: @transmantle;
+      }
 .popover {
    background-color: @surface0;
 }
@@ -230,7 +234,24 @@ color: @blue;
         background-color: @mantle;
       }
 .accounts-popover .accounts-manager-header {
-    background-color: @mantle;
+    background-color: @base;
+      }
+.server-filters-dropdown-box {
+background-color: @base!important;
+}
+.server-filter-option {
+background-color: @surface0!important;
+color: @subtext1!important;
+      }
+.server-filter-option:hover {
+color: @text!important;
+      } 
+.filter-tooltip {
+background-color: @base!important;
+color: @text!important;
+      }
+ .view-thumbnail-asset-container .btn-view-thumbnail-asset.carousel-controls,  .view-thumbnail-asset-container .btn-alt-text.carousel-controls,  .alt-text-container .btn-view-thumbnail-asset.carousel-controls,  .alt-text-container .btn-alt-text.carousel-controls {
+      background-color: @transmantle;
       }
 }
 
