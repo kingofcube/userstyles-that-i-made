@@ -65,7 +65,8 @@
     border: @overlay2;
       }
 .content {
-    background-color: @base
+    background-color: @base;
+color: @text;
 }
  .icon-default-navigation,  .icon-nav-blog,  .icon-nav-charactercustomizer,  .icon-nav-friends,  .icon-nav-giftcards,  .icon-nav-group,  .icon-nav-home,  .icon-nav-inventory,  .icon-nav-menu,  .icon-nav-message,  .icon-nav-my-feed,  .icon-nav-notification-stream,  .icon-nav-profile,  .icon-nav-robux,  .icon-nav-search-white,  .icon-nav-settings,  .icon-nav-shop,  .icon-nav-trade {
 color: @accent-color;
@@ -192,7 +193,7 @@ box-shadow: @overlay2;
 .chat-search {
 background-color: @crust;
       }
- .chat-friend-list .chat-friend-container .chat-friend-info.read,  .chat-friend-list .chat-friend-container .chat-friend-info .read,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link {
+ .chat-friend-list .chat-friend-container .chat-friend-info.read,  .chat-friend-list .chat-friend-container .chat-friend-info .read,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-label,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-label,  .chat-friend-list .chat-friend-container .chat-friend-info.read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info.read .text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read.text-link,  .chat-friend-list .chat-friend-container .chat-friend-info .read .text-link, .text-robux {
 color: @text;
       }
 .game-card-info .info-label {
