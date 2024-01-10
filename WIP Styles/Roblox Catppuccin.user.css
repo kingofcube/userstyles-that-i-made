@@ -172,9 +172,10 @@ background-color: @base;
    background-color: @surface0
       }
 .icon-premium-88x88 {
-      background: @mantle url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%22M80%200a8%208%200%20018%208v72a8%208%200%2001-7.75%207.996L80%2088H42v-8h38V8H8v80a8%208%200%2001-8-8V8A8%208%200%20017.75.004L8%200h72zm-6%2014v60h-8V22H22v66h-8V14h60zM42%2060v-8h10V36H36v52h-8V28h32v32H42zm24%206v8H42v-8h24z%22%20") no-repeat right 8px
-        center/auto 88px;
-      border-color: @accent-color;
+      @svg: escape(
+        '<svg xmlns="http://www.w3.org/2000/svg" height="88" width="88"><path d="M80 0a8 8 0 018 8v72a8 8 0 01-7.75 7.996L80 88H42v-8h38V8H8v80a8 8 0 01-8-8V8A8 8 0 017.75.004L8 0h72zm-6 14v60h-8V22H22v66h-8V14h60zM42 60v-8h10V36H36v52h-8V28h32v32H42zm24 6v8H42v-8h24z" fill="@{subtext0}"/></svg>'
+      );
+      background-image: url("data:image/svg+xml,@{svg}");
     }
 .popover.bottom>.arrow, .popover.bottom>.arrow:after {
 border-bottom-color: @surface0;
