@@ -80,7 +80,7 @@ color: @subtext0;
  .text-lead,  .text-lead:active,  .text-lead:hover,  .text-lead:link,  .text-lead:visited,  .text-title,  .text-title:active,  .text-title:hover,  .text-title:link,  .text-title:visited {
 color: @text;
       }
-.avatar .avatar-card-image {
+.avatar .avatar-card-image, .avatar-container .avatar-card-image, .avatar-container img {
 background-color: @overlay2;
       }
  .text-link,  .text-link.small,  .text-link.small:active,  .text-link.small:link,  .text-link.small:visited,  .text-link.xsmall,  .text-link.xsmall:active,  .text-link.xsmall:link,  .text-link.xsmall:visited,  .text-link.xxsmall,  .text-link.xxsmall:active,  .text-link.xxsmall:link,  .text-link.xxsmall:visited,  .text-link:active,  .text-link:hover,  .text-link:link,  .text-link:visited,  .text-name,  .text-name.small,  .text-name.small:active,  .text-name.small:link,  .text-name.small:visited,  .text-name.xsmall,  .text-name.xsmall:active,  .text-name.xsmall:link,  .text-name.xsmall:visited,  .text-name.xxsmall,  .text-name.xxsmall:active,  .text-name.xxsmall:link,  .text-name.xxsmall:visited,  .text-name:active,  .text-name:hover,  .text-name:link,  .text-name:visited,  .vlist .list-item .list-body .list-content a,  .vlist .list-item .list-body .list-content a.small,  .vlist .list-item .list-body .list-content a.small:active,  .vlist .list-item .list-body .list-content a.small:link,  .vlist .list-item .list-body .list-content a.small:visited,  .vlist .list-item .list-body .list-content a.xsmall,  .vlist .list-item .list-body .list-content a.xsmall:active,  .vlist .list-item .list-body .list-content a.xsmall:link,  .vlist .list-item .list-body .list-content a.xsmall:visited,  .vlist .list-item .list-body .list-content a.xxsmall,  .vlist .list-item .list-body .list-content a.xxsmall:active,  .vlist .list-item .list-body .list-content a.xxsmall:link,  .vlist .list-item .list-body .list-content a.xxsmall:visited,  .vlist .list-item .list-body .list-content a:active,  .vlist .list-item .list-body .list-content a:hover,  .vlist .list-item .list-body .list-content a:link,  .vlist .list-item .list-body .list-content a:visited, .vlist .list-item .list-body .list-content  a, .vlist .list-item .list-body .list-content  a.small, .vlist .list-item .list-body .list-content  a.small:active, .vlist .list-item .list-body .list-content  a.small:link, .vlist .list-item .list-body .list-content  a.small:visited, .vlist .list-item .list-body .list-content  a.xsmall, .vlist .list-item .list-body .list-content  a.xsmall:active, .vlist .list-item .list-body .list-content  a.xsmall:link, .vlist .list-item .list-body .list-content  a.xsmall:visited, .vlist .list-item .list-body .list-content  a.xxsmall, .vlist .list-item .list-body .list-content  a.xxsmall:active, .vlist .list-item .list-body .list-content  a.xxsmall:link, .vlist .list-item .list-body .list-content  a.xxsmall:visited, .vlist .list-item .list-body .list-content  a:active, .vlist .list-item .list-body .list-content  a:hover, .vlist .list-item .list-body .list-content  a:link, .vlist .list-item .list-body .list-content  a:visited {
@@ -168,9 +168,17 @@ background-color: @base;
 #nav-blog:hover,  #nav-character:hover,  #nav-friends:hover,  #nav-group:hover,  #nav-home:hover,  #nav-inventory:hover,  #nav-message:hover,  #nav-my-feed:hover,  #nav-profile:hover,  #nav-shop:hover,  #nav-trade:hover {
     color: @text
 }
-#buy-robux-popover-menu li a, #settings-popover-menu li a, .dropdown-menu {
+#buy-robux-popover-menu li a, #settings-popover-menu li a, .dropdown-menu{
    background-color: @surface0
       }
+.icon-premium-88x88 {
+      background: @mantle url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%22M80%200a8%208%200%20018%208v72a8%208%200%2001-7.75%207.996L80%2088H42v-8h38V8H8v80a8%208%200%2001-8-8V8A8%208%200%20017.75.004L8%200h72zm-6%2014v60h-8V22H22v66h-8V14h60zM42%2060v-8h10V36H36v52h-8V28h32v32H42zm24%206v8H42v-8h24z%22%20") no-repeat right 8px
+        center/auto 88px;
+      border-color: @accent-color;
+    }
+.popover.bottom>.arrow, .popover.bottom>.arrow:after {
+border-bottom-color: @surface0;
+}
 .btn-growth-xs, .btn-growth-xs:hover {
 background-color: @green;
 border-color: @green;
@@ -207,7 +215,7 @@ color: @text;
     border-color: @red;
     color: @red;
 }
-.carousel-controls.btn-primary-md, .carousel-controls.btn-primary-md {
+.carousel-controls.btn-primary-md, .carousel-controls.btn-primary-md, .game-card-container .game-card-thumb-container {
 background-color: @transmantle;
       }
 .popover {
