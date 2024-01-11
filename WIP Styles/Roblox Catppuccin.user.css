@@ -51,7 +51,8 @@
     @surface1: @catppuccin[@@lookup][@surface1];
     @surface0: @catppuccin[@@lookup][@surface0];
     @base: @catppuccin[@@lookup][@base];
-    @transmantle: fadeout(@mantle, 45%);
+    @transmantle: fadeout(@mantle, 50%);
+    @transsf1: fadeout(@surface1, 50%);
     @mantle: @catppuccin[@@lookup][@mantle];
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
@@ -177,9 +178,6 @@ background-color: @base;
       );
       background-image: url("data:image/svg+xml,@{svg}");
     }
-.popover.bottom>.arrow, .popover.bottom>.arrow:after {
-border-bottom-color: @surface0;
-}
 .btn-growth-xs, .btn-growth-xs:hover {
 background-color: @green;
 border-color: @green;
@@ -272,8 +270,18 @@ background-color: @surface0!important;
 .ropro-cloud-play-tooltip {
 background-color: @mantle!important;
 }
+.btr-preview-container {
+      background-color: @surface1
+      }
+.btr-thumb-btn-container .btr-thumb-btn, .btr-thumb-btn-container .btr-thumb-popup {
+background-color: @surface1!important;
+      }
  .view-thumbnail-asset-container .btn-view-thumbnail-asset.carousel-controls,  .view-thumbnail-asset-container .btn-alt-text.carousel-controls,  .alt-text-container .btn-view-thumbnail-asset.carousel-controls,  .alt-text-container .btn-alt-text.carousel-controls {
       background-color: @transmantle;
+color: @text;
+      }
+.asset-thumb-container {
+      background-color: @transsf1;
       }
 }
 
