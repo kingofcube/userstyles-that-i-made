@@ -59,22 +59,37 @@ body, .col ul li a, .col ul, .cl-search-dropdown input, .cl-search-filters-panel
 background-color: @base;
 color: @text;
 }
+.hhh:hover, .ccc:hover, .jjj:hover, .sss:hover, .bbb:hover, .forums:hover, .ggg:hover, .rrr:hover{
+background-color: @base!important;
+border-color: @base!important;
+      }
+.cal {
+background-color: @mantle;
+}
 .ban, #topban, .global-header, header.cl-header {
-border-color: @surface1;
+border-color: @surface0;
+border-top: @surface0;
+border-bottom: @surface0;
 background-color: @surface1;
 background: @surface1;
       }
- .leftbar, #rightbar {
+.homepage .col ul li a:hover {
+background: @surface1;
+      }
+ .leftbar, #rightbar, {
 background: @surface1;
 border-left: @surface0;
 border-right: @surface0;
 }
+.homepage #rightbar h5:hover {
+background: @base;
+      }
 footer {
 background-color: @mantle;
 border-color: @crust;
       }
 .bd-button {
-background-color: @base;
+background: @base;
 color: @sapphire;
       }
 .cl-search-filters-panel .cl-title-bar .back-and-title-links h1 {
@@ -83,18 +98,41 @@ color: @sapphire
 .cl-home-search-query .cl-search-dropdown input {
 border-color: @mantle;
       }
+.cl-results-page .nearby-separator {
+      }
 header.cl-header .cl-breadcrumb.bd-combo-box .bd-button {
 color: @text;
       }
-.bd-combo-box {
+.bd-combo-box, .bd-combo-box input {
 background-color: @base;
+background: @base;
+border-color: @surface2;
 color: @subtext1;
+      }
+.cl-filter-buttons .buttons .bd-button {
+color: @subtext0;
+border-color: @surface2
+      }
+.cl-results-page .nearby-separator {
+border-top-color: @surface2;
+      }
+.bd-can-hover .bd-button:hover, .bd-can-hover .bd-button.tickle:hover {
+    background: @overlay0
+      }
+.cl-search-result.cl-search-view-mode-thumb .result-node .supertitle {
+color: @subtext1;
+      }
+.cl-search-query .cl-query-bar .cl-query-with-search-suggest.update input, .cl-search-query .cl-query-bar .cl-query-with-search-suggest.update {
+background-color: @overlay1;
       }
 a, a:visited {
 color: @sapphire;
       }
+a:hover, a:visited, .bd-can-hover .bd-button:hover, .bd-can-hover .bd-button.tickle:hover, .cl-app-anchor.cl-goto-home:hover, .cl-app-anchor.cl-goto-home:visited, .cl-thumb {
+color: @accent-color;
+      }
 #rightbar h5.active, #rightbar h5 {
-background: @base;
+background: @surface1;
 color: @blue;
       }
 .cal .dys th, .cal td {
