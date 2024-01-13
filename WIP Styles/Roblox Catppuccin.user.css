@@ -57,6 +57,7 @@
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
 
+
     .rbx-left-col {
     background-color: @mantle;
     color: @text;
@@ -117,7 +118,7 @@ background-color: @accent-color;
         background-color: @surface0
       }
 /* Play Button */
-.btn-common-play-game-lg, .btn-common-play-game-lg:hover, .btn-common-play-game-lg:focus, .btn-common-play-game-lg:active, btn-growth-sm:focus, .btn-growth-sm:hover, .btn-growth-sm {
+.btn-common-play-game-lg, .btn-common-play-game-lg:hover, .btn-common-play-game-lg:focus, .btn-common-play-game-lg:active, btn-growth-sm:focus, .btn-growth-sm:hover, .btn-growth-sm,  .btn-growth-lg.disabled,  .btn-growth-lg.disabled.active,  .btn-growth-lg.disabled:active,  .btn-growth-lg.disabled:focus,  .btn-growth-lg.disabled:hover,  .btn-growth-lg[disabled],  .btn-growth-lg[disabled].active,  .btn-growth-lg[disabled]:active,  .btn-growth-lg[disabled]:focus,  .btn-growth-lg[disabled]:hover, .btn-growth-lg {
     background-color: @accent-color;
 border: @accent-color;
 color: @text;
@@ -178,6 +179,14 @@ background-color: @base;
       );
       background-image: url("data:image/svg+xml,@{svg}");
     }
+.btr-thumb-btn [class^="btr-icon"] {
+      @svg: escape(
+        '<svg xmlns="http://www.w3.org/2000/svg" height="84" width="56"><path d="m 42.075866,1032.409 c 3.605228,-0.038 7.242949,1.8216 10.978391,5.9711 0.253268,0.4029 0.233007,0.5067 0,0.8846 -3.75516,3.2597 -7.454549,4.9853 -11.080674,5.0494 -3.638241,0.065 -7.30935,-1.523 -11.148863,-5.0494 -0.112011,-0.3062 -0.07389,-0.5926 0.03409,-0.8846 3.900958,-3.9642 7.632081,-5.9331 11.217052,-5.9711 z" fill="@{subtext0}"/></svg>'
+      );
+[fill="#fff"] {
+  fill: @accent-color !important;
+}
+    }
 .btn-growth-xs, .btn-growth-xs:hover {
 background-color: @green;
 border-color: @green;
@@ -236,6 +245,12 @@ color: @text;
 .menu-vertical .menu-option .menu-secondary {
     background-color: @surface0;
       }
+.btn-control-md {
+border-color: @overlay1
+      }
+.btn-control-md:focus, .btn-control-md:hover {
+border-color: @overlay2
+}
 /* Addons Support */
 .btr-profile .btr-status-online {
 color: @blue;
@@ -270,9 +285,10 @@ background-color: @surface0!important;
 .ropro-cloud-play-tooltip {
 background-color: @mantle!important;
 }
-.btr-preview-container {
-      background-color: @surface1
+.btr-preview-container, .item-thumbnail-container .asset-thumb-container {
+      background-color: @surface0
       }
+
 .btr-thumb-btn-container .btr-thumb-btn, .btr-thumb-btn-container .btr-thumb-popup {
 background-color: @surface1!important;
       }
@@ -280,7 +296,7 @@ background-color: @surface1!important;
       background-color: @transmantle;
 color: @text;
       }
-.asset-thumb-container {
+.asset-thumb-container, .item-details-thumbnail-container .thumbnail-holder {
       background-color: @transsf1;
       }
 }
