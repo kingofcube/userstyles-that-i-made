@@ -60,6 +60,7 @@
     --border: @mantle;
   --light-border: @surface0;
     --button: @surface0;
+    --color: @accent-color;
 
     #banner {
         background-image: url(https://i.imgvibe.com/2023/12/29/1000131893.png)
@@ -98,7 +99,7 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
     color: @text!important;
 }
 div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-quote-right {
-    color: @red!important;
+    color: @accent-color!important;
 }
 h3 {
     color: @subtext1!important;
@@ -123,6 +124,9 @@ span {
 }
 p[style="color:#44A4EE;"] {
     color: @accent-color!important;
+}
+p.description, .fa-thumb-tack, .fa-lock, .fa-pencil, .fa-refresh {
+color: @accent-color
 }
 #box, #info, #navbar, #footer {
     background: var(--element)!important;
