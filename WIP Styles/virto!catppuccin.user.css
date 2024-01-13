@@ -73,6 +73,7 @@ background-color: @surface0!important;
 }
 .shopSideBarButton1 {
 background-color: @surface0!important;
+border-color: @mantle!important;
 }
 #rad {
     background-color: @surface1;
@@ -85,7 +86,7 @@ h2 {
     background-color: @accent-color!important;
 }
 .shopSideBarButton {
-    color: @subtext1!important;
+    color: @subtext1!important; 
 }
 .offline {
     color: @red!important;
@@ -133,6 +134,32 @@ input, textarea, td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-bre
 }
 td {
    color: @text!important;
+}
+.blue-button {
+background-color: @accent-color;
+border-bottom-color: @surface1;
+      }
+#subsect {
+border-color: @text;
+      }
+#shopItem {
+background-color: @surface1;
+border-color: @mantle;
+      }
+#news {
+background-color: @surface0
+      }
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, .button-style {
+background-color: @accent-color !important;
+border-color: @surface1
+      }
+.profile-display {
+border-color: @mantle;
+background-color: @text;
+      }
+body {
+background-image: linear-gradient(@crust, @crust)!important;
+background-color: @crust!important
 }
 /* Currency */
 .shopDesc .fa-money, [style="color:Green;"] {
