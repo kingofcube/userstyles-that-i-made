@@ -150,6 +150,10 @@ border-color: @text;
 background-color: @surface1;
 border-color: @mantle;
       }
+#footer:after {
+    content: 'MMade with love by King-Cube :3';
+    color: @accent-color;
+}
 #news {
 background-color: @surface0
       }
