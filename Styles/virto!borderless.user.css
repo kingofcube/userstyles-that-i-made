@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           virto!borderless
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    mmm, blocky
 @author         King_Cube
 ==/UserStyle== */
@@ -31,4 +31,13 @@
 #footer {
     border-radius: 0px;;
 }
+#shopitem {
+    border-radius: 0px!important;
+    }
+.profile-display {
+    border-radius: 0px!important;
+    }
+:root input[type="button" i], :root input[type="submit" i], :root input[type="reset" i], :root input[type="file" i]::-webkit-file-upload-button, :root .button-style {
+    border-radius: 0px!important;
+    }
 }
