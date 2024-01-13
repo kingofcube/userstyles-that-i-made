@@ -153,11 +153,11 @@ border-color: @mantle;
 #news {
 background-color: @surface0
       }
-input[type="button" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, .button-style {
+input[type="button" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button {
 background-color: @accent-color !important;
 border-color: @mantle !important;
       }
-input[type="submit" i] {
+input[type="submit" i], .button-style, input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button {
 border-color: @mantle !important;
       }
 .profile-display {
