@@ -77,7 +77,30 @@ div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px
     border-color: @base!important;
     background-color: @surface0!important;
       }
-a {
+div[style="height:300px;width:225px;margin:10px;padding:10px;display:inline-block;border:1.25px solid red;border-radius:5px;position:relative;"] {
+border-color: @red!important;
+      }
+      text[style="margin:5px;color:green;font-size:15px;"] {
+color: @green!important
+}
+i[style="font-size:17.5px;color:#f4ff32;"], i[style="color:#f4ff32;"] {
+color: @accent-color!important
+      }
+text[style="border:1px solid green;background-color:#1dff00;color:white;font-weight:bold;font-size:20px;padding:5px;width:400px;"] {
+border-color: @green!important;
+background-color: @green!important;
+color: @text!important;
+}
+button[style="width:500px;border-radius:0px;"] {
+background-color: @accent-color!important;
+border-color: @mantle!important;
+color: @text!important;
+      }
+a[style="border:1px solid green;padding:5px;border-radius:5px;font-size:25px;width:250px;"] {
+border-color: @green!important;
+color: @text!important;
+}
+a, a:link {
 color: @text!important;
       }
 .fa-cog, .fa-comment, .fa-user {
