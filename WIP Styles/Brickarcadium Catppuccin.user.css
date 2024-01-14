@@ -69,6 +69,9 @@ color: @mantle!important;
 #gearBox {
     background-color: @surface1!important;
       }
+i[style="color: gray; float: right; position:relative;"] {
+color: @subtext0!important;
+      }
       div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px;width:95%;padding-left:10px;padding-top:7.5px;padding-bottom:10px;height:140px;position:relative;background-color:#3D3D3D;"], div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px;width:76%;padding-left:10px;padding-top:7.5px;padding-bottom:10px;height:35px;position:relative;background-color:#3D3D3D;"] {
     background-color: @surface1!important;
     border-color: @surface0!important;
