@@ -66,7 +66,7 @@
     background-color: @mantle;
     border: @overlay2;
       }
-.content {
+.content, .container-empty, .section-content-off {
     background-color: @base;
 color: @text;
 }
@@ -142,7 +142,7 @@ border-color: @surface1;
       }
 #notifications-bell-badge.bell-red-badge {
     background-color: @accent-color;
-    color: @text;
+    color: @mantle;
 }
 .modal-dialog .modal-content {
     background-color: @surface0;
