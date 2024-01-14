@@ -66,11 +66,29 @@ color: @subtext1!important;
     background-color: @green!important;
 color: @mantle!important;
       }
+      div[style="color:white;width:99.9%;background-color:orange;padding:10px;padding-top:60px;position:fixed;"] {
+    background-color: @yellow!important;
+color: @mantle!important;
+      }
 #gearBox {
     background-color: @surface1!important;
       }
 i[style="color: gray; float: right; position:relative;"] {
 color: @subtext0!important;
+      }
+div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:#423f27;border-radius:5px;color:white;display:inline-block;"] {
+background-color: @accent-color!important;
+color: @mantle!important;
+      }
+.Ginput, input {
+border-color: @mantle!important;
+background-color: @surface0!important;
+color: @text!important;
+      }
+button {
+border-color: @mantle!important;
+background-color: @accent-color!important;
+color: @mantle!important;
       }
       div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px;width:95%;padding-left:10px;padding-top:7.5px;padding-bottom:10px;height:140px;position:relative;background-color:#3D3D3D;"], div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px;width:76%;padding-left:10px;padding-top:7.5px;padding-bottom:10px;height:35px;position:relative;background-color:#3D3D3D;"] {
     background-color: @surface1!important;
@@ -87,7 +105,7 @@ border-color: @red!important;
 color: @green!important
 }
 i[style="font-size:17.5px;color:#f4ff32;"], i[style="color:#f4ff32;"] {
-color: @accent-color!important
+color: @yellow!important
       }
 text[style="border:1px solid green;background-color:#1dff00;color:white;font-weight:bold;font-size:20px;padding:5px;width:400px;"] {
 border-color: @green!important;
@@ -103,11 +121,23 @@ a[style="border:1px solid green;padding:5px;border-radius:5px;font-size:25px;wid
 border-color: @green!important;
 color: @text!important;
 }
+div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"] {
+background-color: @blue!important;
+      }
 a, a:link {
 color: @text!important;
       }
+a[style="background-color:white;border:1px solid;padding:5px;padding-right:30px;padding-left:30px;"], a[style="font-size:10px;background-color:white;border:1px solid;padding:2.5px;padding-right:30px;padding-left:30px;"] {
+background-color: @base!important;
+border-color: @mantle!important;
+      }
 .fa-cog, .fa-comment, .fa-user {
 color: @subtext1!important;
+      }
+a[style="border-radius:10px;padding:10px;border:1px solid white;background-color:green;color:white;"] {
+background-color: @green!important;
+border-color: @mantle!important;
+color: @mantle!important;
       }
 }
 
