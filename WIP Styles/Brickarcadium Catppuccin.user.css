@@ -64,7 +64,7 @@ color: @subtext1!important;
 }
       div[style="color:white;width:99.9%;background-color:green;padding:10px;padding-top:60px;position:fixed;"] {
     background-color: @green!important;
-color: @text!important;
+color: @mantle!important;
       }
 #gearBox {
     background-color: @surface1!important;
@@ -89,12 +89,12 @@ color: @accent-color!important
 text[style="border:1px solid green;background-color:#1dff00;color:white;font-weight:bold;font-size:20px;padding:5px;width:400px;"] {
 border-color: @green!important;
 background-color: @green!important;
-color: @text!important;
+color: @mantle!important;
 }
 button[style="width:500px;border-radius:0px;"] {
 background-color: @accent-color!important;
 border-color: @mantle!important;
-color: @text!important;
+color: @mantle!important;
       }
 a[style="border:1px solid green;padding:5px;border-radius:5px;font-size:25px;width:250px;"] {
 border-color: @green!important;
