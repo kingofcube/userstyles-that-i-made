@@ -2,10 +2,10 @@
 @name Brickarcadium Catppuccin
 @namespace github.com/catppuccin/userstyles/styles/<port-name>
 @homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/<port-name>
-@version 0.0.1
-@updateURL https://github.com/catppuccin/userstyles/raw/main/styles/<port-name>/catppuccin.user.css
+@version 0.0.2
+@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/Brickarcadium%20Catppuccin.user.css
 @supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3A<port-name>
-@description Soothing pastel theme for <port-name>
+@description Soothing pastel theme for Brickarcadium
 @author Catppuccin
 @license MIT
 
@@ -98,8 +98,9 @@ div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px
     border-color: @base!important;
     background-color: @surface0!important;
       }
-div[style="height:300px;width:225px;margin:10px;padding:10px;display:inline-block;border:1.25px solid red;border-radius:5px;position:relative;"], div[style="z-index:0;position: relative;border:1px solid red;display:inline-block;border-radius:5px;padding:0px;padding-bottom:0px;margin-right:10px;"], div[style="margin-top:2.5px;display:inline-block;border:1px solid red;border-radius:5px;margin-right:10px;"], div[style="position:absolute;top:0px;right:0px;border:1px solid red;padding:2.5px;font-size:12.5px;border-top-right-radius:0px;border-top:0px;border-right:0px;"] {
+text[style="color:red;font-size:12.5px"], div[style="height:300px;width:225px;margin:10px;padding:10px;display:inline-block;border:1.25px solid red;border-radius:5px;position:relative;"], div[style="z-index:0;position: relative;border:1px solid red;display:inline-block;border-radius:5px;padding:0px;padding-bottom:0px;margin-right:10px;"], div[style="margin-top:2.5px;display:inline-block;border:1px solid red;border-radius:5px;margin-right:10px;"], div[style="position:absolute;top:0px;right:0px;border:1px solid red;padding:2.5px;font-size:12.5px;border-top-right-radius:0px;border-top:0px;border-right:0px;"], div[style="display:inline-block;border:1px solid red;border-radius:5px;margin-right:10px;"] {
 border-color: @red!important;
+color: @red!important;
       }
       text[style="margin:5px;color:green;font-size:15px;"] {
 color: @green!important
@@ -121,11 +122,14 @@ a[style="border:1px solid green;padding:5px;border-radius:5px;font-size:25px;wid
 border-color: @green!important;
 color: @text!important;
 }
-div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"] {
+div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"], div[style="padding:10px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"] {
 background-color: @blue!important;
       }
-a, a:link, b, p {
+a, a:link, p, text, b, div[style="width:100%;z-index:2;background-color:#282828;color:white;padding:10px;border:1px solid black;border-top:0px;border-radius-bottom-left:5px;border-radius-bottom-right:5px;position: fixed;"] {
 color: @text!important;
+      }
+h3 {
+color: @subtext1!important
       }
 a[style="background-color:white;border:1px solid;padding:5px;padding-right:30px;padding-left:30px;"], a[style="font-size:10px;background-color:white;border:1px solid;padding:2.5px;padding-right:30px;padding-left:30px;"] {
 background-color: @base!important;
