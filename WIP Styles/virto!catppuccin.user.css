@@ -1,4 +1,4 @@
-/* ==UserStyle==
+ /* ==UserStyle==
 @name virto!catppuccin
 @namespace github.com/catppuccin/userstyles/styles/example.org
 @homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/example.org
@@ -65,7 +65,11 @@
     #banner {
         background-image: url(https://i.imgvibe.com/2023/12/29/1000131893.png)
     }
-
+div[style="border: 1px solid green;border-radius: 10px;background-color: green;color: limegreen;padding: 3px;margin-top:5px; width:50%; text-align:center;"] {
+background-color: @green!important;
+border-color: @green!important;
+color: @mantle!important;
+      }
 #snavbar {
 background-color: @surface0!important;
       }
@@ -73,7 +77,7 @@ background-color: @surface0!important;
     background-color: @surface0!important;
 }
 .shopSideBarButton1 {
-background-color: @mantle!important;
+background-color: @crust!important;
 border-color: @mantle!important;
 }
 #rad {
@@ -157,11 +161,7 @@ border-color: @mantle;
 #news {
 background-color: @surface0
       }
-input[type="button" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button {
-background-color: @accent-color !important;
-border-color: @mantle !important;
-      }
-input[type="submit" i], .button-style, input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button {
+input[type="submit" i], .button-style, input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button, input[type="button" i] {
 border-color: @mantle !important;
       }
 .profile-display {
