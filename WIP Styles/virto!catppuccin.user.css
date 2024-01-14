@@ -99,7 +99,10 @@ h2 {
 .online {
     color: @green!important;
 }
-input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button {
+input::placeholder {
+color: @subtext0
+      }
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button, :root input, :root textarea, :root td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
     color: @text!important;
 }
 div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-quote-right {
