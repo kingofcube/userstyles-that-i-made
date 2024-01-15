@@ -84,6 +84,9 @@ div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;mar
 background-color: @accent-color!important;
 color: @mantle!important;
       }
+div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:grey;border-radius:5px;color:white;display:inline-block;"] {
+color: @subtext0!important
+      }
 .Ginput, input {
 border-color: @mantle!important;
 background-color: @surface0!important;
