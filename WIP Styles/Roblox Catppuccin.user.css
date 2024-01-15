@@ -74,7 +74,7 @@ color: @text;
 color: @accent-color;
       }
  .rbx-header .text-header,  .rbx-header .text-header:active,  .rbx-header .text-header:focus,  .rbx-header .text-header:hover,  .rbx-header .text-header:link,  .rbx-header .text-header:visited {
-color: @text;
+color: @blue;
       }
  .voting-panel .users-vote .vote-details .vote-numbers .count-left,  .voting-panel .users-vote .vote-details .vote-numbers .count-right {
 color: @subtext0;
@@ -86,7 +86,7 @@ color: @text;
 background-color: @overlay2;
       }
  .text-link,  .text-link.small,  .text-link.small:active,  .text-link.small:link,  .text-link.small:visited,  .text-link.xsmall,  .text-link.xsmall:active,  .text-link.xsmall:link,  .text-link.xsmall:visited,  .text-link.xxsmall,  .text-link.xxsmall:active,  .text-link.xxsmall:link,  .text-link.xxsmall:visited,  .text-link:active,  .text-link:hover,  .text-link:link,  .text-link:visited,  .text-name,  .text-name.small,  .text-name.small:active,  .text-name.small:link,  .text-name.small:visited,  .text-name.xsmall,  .text-name.xsmall:active,  .text-name.xsmall:link,  .text-name.xsmall:visited,  .text-name.xxsmall,  .text-name.xxsmall:active,  .text-name.xxsmall:link,  .text-name.xxsmall:visited,  .text-name:active,  .text-name:hover,  .text-name:link,  .text-name:visited,  .vlist .list-item .list-body .list-content a,  .vlist .list-item .list-body .list-content a.small,  .vlist .list-item .list-body .list-content a.small:active,  .vlist .list-item .list-body .list-content a.small:link,  .vlist .list-item .list-body .list-content a.small:visited,  .vlist .list-item .list-body .list-content a.xsmall,  .vlist .list-item .list-body .list-content a.xsmall:active,  .vlist .list-item .list-body .list-content a.xsmall:link,  .vlist .list-item .list-body .list-content a.xsmall:visited,  .vlist .list-item .list-body .list-content a.xxsmall,  .vlist .list-item .list-body .list-content a.xxsmall:active,  .vlist .list-item .list-body .list-content a.xxsmall:link,  .vlist .list-item .list-body .list-content a.xxsmall:visited,  .vlist .list-item .list-body .list-content a:active,  .vlist .list-item .list-body .list-content a:hover,  .vlist .list-item .list-body .list-content a:link,  .vlist .list-item .list-body .list-content a:visited, .vlist .list-item .list-body .list-content  a, .vlist .list-item .list-body .list-content  a.small, .vlist .list-item .list-body .list-content  a.small:active, .vlist .list-item .list-body .list-content  a.small:link, .vlist .list-item .list-body .list-content  a.small:visited, .vlist .list-item .list-body .list-content  a.xsmall, .vlist .list-item .list-body .list-content  a.xsmall:active, .vlist .list-item .list-body .list-content  a.xsmall:link, .vlist .list-item .list-body .list-content  a.xsmall:visited, .vlist .list-item .list-body .list-content  a.xxsmall, .vlist .list-item .list-body .list-content  a.xxsmall:active, .vlist .list-item .list-body .list-content  a.xxsmall:link, .vlist .list-item .list-body .list-content  a.xxsmall:visited, .vlist .list-item .list-body .list-content  a:active, .vlist .list-item .list-body .list-content  a:hover, .vlist .list-item .list-body .list-content  a:link, .vlist .list-item .list-body .list-content  a:visited {
-color: @accent-color;
+color: @blue;
       }
 a, a:active, a:focus, a:hover, a:link, a:visited {
 color: @text;
