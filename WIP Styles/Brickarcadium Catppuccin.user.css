@@ -85,6 +85,13 @@ color: @crust!important;
 div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:grey;border-radius:5px;color:white;display:inline-block;"] {
 color: @subtext0!important
       }
+div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"], div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:grey;border-radius:5px;color:white;display:inline-block;"] {
+color: @text!important
+}
+text[style="width:100px;font-size:12.5px;margin-top:5px;color:black;font-weight:bold;background: linear-gradient(red, yellow);;padding:5px;border-radius:5px;margin-bottom:20px;padding-left:27.5px;padding-right:27.5px;position:relative;"] {
+    background-image: linear-gradient(@red, @yellow)!important;
+color: @mantle!important;
+      }
 .Ginput, input {
 border-color: @mantle!important;
 background-color: @surface0!important;
@@ -94,6 +101,10 @@ button {
 border-color: @mantle!important;
 background-color: @accent-color!important;
 color: @mantle!important;
+      }
+a[style="background-color:white; color:grey;border:1px solid grey;padding:5px;padding-right:30px;padding-left:30px;"] {
+border-color: @mantle!important;
+background-color: @base!important;
       }
       div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px;width:95%;padding-left:10px;padding-top:7.5px;padding-bottom:10px;height:140px;position:relative;background-color:#3D3D3D;"], div[style="text-align:left;border:1px solid black;padding:20px;border-radius:5px;width:76%;padding-left:10px;padding-top:7.5px;padding-bottom:10px;height:35px;position:relative;background-color:#3D3D3D;"] {
     background-color: @surface1!important;
@@ -107,11 +118,19 @@ text[style="color:red;font-size:12.5px"], div[style="height:300px;width:225px;ma
 border-color: @red!important;
 color: @red!important;
       }
+text[style="border:1px solid red;background-color:#ed3648;color:white;font-weight:bold;font-size:20px;padding:5px;width:400px;"] {
+background-color: @red!important;
+border-color: @red!important;
+color: @mantle!important
+}
       text[style="margin:5px;color:green;font-size:15px;"] {
 color: @green!important
 }
 i[style="font-size:17.5px;color:#f4ff32;"], i[style="color:#f4ff32;"] {
 color: @yellow!important
+      }
+i[style="font-size:17.5px;color:grey;"], i[style="color:#e2e2e2;"] {
+color: @overlay2!important
       }
 text[style="border:1px solid green;background-color:#1dff00;color:white;font-weight:bold;font-size:20px;padding:5px;width:400px;"] {
 border-color: @green!important;
@@ -130,10 +149,10 @@ color: @text!important;
 div[style="padding:5px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"], div[style="padding:10px;padding-left:35px;padding-right:35px;margin-left:25px;margin-right:25px;background-color:blue;border-radius:5px;color:white;display:inline-block;"] {
 background-color: @blue!important;
       }
-a, p, text,  div[style="width:100%;z-index:2;background-color:#282828;color:white;padding:10px;border:1px solid black;border-top:0px;border-radius-bottom-left:5px;border-radius-bottom-right:5px;position: fixed;"] {
+a, p, text, div[style="width:100%;z-index:2;background-color:#282828;color:white;padding:10px;border:1px solid black;border-top:0px;border-radius-bottom-left:5px;border-radius-bottom-right:5px;position: fixed;"] {
 color: @text!important;
       }
- a:link {
+ a:link, a:visited {
 color: @blue!important;
       }
 h3 {
