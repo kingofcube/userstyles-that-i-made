@@ -51,6 +51,7 @@
     @surface1: @catppuccin[@@lookup][@surface1];
     @surface0: @catppuccin[@@lookup][@surface0];
     @base: @catppuccin[@@lookup][@base];
+    @transbase: fadeout(@base, 30%);
     @mantle: @catppuccin[@@lookup][@mantle];
     @transmantle: fadeout(@mantle, 30%);
     @crust: @catppuccin[@@lookup][@crust];
@@ -69,7 +70,11 @@
         --NotificationMessageDividerColor: @surface0;
         --DefaultGreenColor: @green;
         --DefaultRedColor: @red;
+--PageTitleColor: @text;
         --DefaultTextColor: @text;
+--ButtonFontColor: @text;
+--DefaultGrayColor: @surface0;
+        --InputTextColor: @subtext1;
         --AuxiliaryColumnBackground: @transmantle;
         --SubNavigatorDropdownBackgroundColor: @crust;
         --InputBackgroundColor: @surface0;
@@ -81,16 +86,31 @@
         --StateLabelBackground: @base;
 --DefaultBlueColor: @blue;
 --DefaultPurpleColor: @mauve;
+--TabBackground: @crust;
+--TabBorder: @surface0;
+
+.SubmissionCard .Title {
+background-color: @transbase!important
+      }
+dt {
+color: @subtext1!important;
+      }
 				.Progress {
 			background-color: var(--InputBackgroundColor);
       }
 			.ExtendedContentButton {
-				background-color: @crust!important;
+				background-color: @mantle!important;
 			}
+.MainForm fieldset .UploadedFiles li {
+				background-color: @base!important;
+      }
+.InputHelp {
+color: @subtext0!important;
+      }
                    	.AvatarTooltip {
 				background-color: @crust!important;
                    
-		}
+}
 
   }
 
