@@ -74,7 +74,7 @@ color: @text;
 color: @accent-color;
       }
  .rbx-header .text-header,  .rbx-header .text-header:active,  .rbx-header .text-header:focus,  .rbx-header .text-header:hover,  .rbx-header .text-header:link,  .rbx-header .text-header:visited {
-color: @blue;
+color: @text;
       }
  .voting-panel .users-vote .vote-details .vote-numbers .count-left,  .voting-panel .users-vote .vote-details .vote-numbers .count-right {
 color: @subtext0;
@@ -111,6 +111,17 @@ color: @subtext1;
     background-color: @accent-color;
 border: @accent-color;
       }
+.btn-secondary-md {
+border-color: @overlay1;
+color: @overlay2;
+      }
+.btn-secondary-md:hover {
+border-color: @overlay2;
+color: @overlay2;
+      }
+.btn-primary-md, .btn-primary-md:hover {
+border-color: @overlay2;
+      }
 .btn-toggle.on {
 background-color: @accent-color;
       }
@@ -121,7 +132,7 @@ background-color: @accent-color;
 .btn-common-play-game-lg, .btn-common-play-game-lg:hover, .btn-common-play-game-lg:focus, .btn-common-play-game-lg:active, btn-growth-sm:focus, .btn-growth-sm:hover, .btn-growth-sm,  .btn-growth-lg.disabled,  .btn-growth-lg.disabled.active,  .btn-growth-lg.disabled:active,  .btn-growth-lg.disabled:focus,  .btn-growth-lg.disabled:hover,  .btn-growth-lg[disabled],  .btn-growth-lg[disabled].active,  .btn-growth-lg[disabled]:active,  .btn-growth-lg[disabled]:focus,  .btn-growth-lg[disabled]:hover, .btn-growth-lg {
     background-color: @accent-color;
 border: @accent-color;
-color: @text;
+color: @mantle;
       }
 .container-footer {
     background-color: @base
@@ -148,6 +159,9 @@ border-color: @surface1;
     background-color: @surface0;
     color: @text;
 }
+.avatar-card-container, .avatar-card-btns {
+    background-color: @surface0!important;
+      }
 .modal-dialog .modal-content .modal-body, .modal-dialog .modal-content .modal-top-body {
     color: @text;
 }
@@ -271,6 +285,10 @@ color: @subtext1!important;
 .server-filter-option:hover {
 color: @text!important;
       } 
+#add-server-link {
+background-color: @overlay2;
+border-color: @overlay2;
+      }
 .filter-tooltip {
 background-color: @base!important;
 color: @text!important;
