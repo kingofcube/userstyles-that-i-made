@@ -115,6 +115,10 @@ border-color: @yellow!important;
       );
       background-image: url("data:image/svg+xml,@{svg}");
     }
+.crate-types .active, .crate-types :hover {
+background-color: @base!important;
+border-left-color: @red!important;
+      }
 nav div.primary {
     background-color: @mantle!important
       }
