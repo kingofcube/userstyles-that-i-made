@@ -74,8 +74,8 @@ a:link, a:visited {
      background-color: @green!important;
      color: @mantle!important;
       }
-.alert.success {
-     background-color: @green!important;
+.alert.error {
+     background-color: @red!important;
      color: @mantle!important;
       }
 footer {
@@ -105,16 +105,15 @@ color: @text!important;
      background-color: @peach!important;
 border-color: @yellow!important;
       }
+.card .top:not(.absolute).blue {
+         color: @mantle!important;
+     background-color: @blue!important;
+border-color: @sapphire!important;
+      }
 .thread-label.green {
      color: @mantle!important;
      background-color: @green!important;
       }
-.bucks-icon {
-      @svg: escape(
-     '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256" height="256"><g xmlns="http://www.w3.org/2000/svg" stroke="@{green}" class="C"><path d="M10 32.457l-9.5 4v5l9.5 4 9.5-4v-5z"/><path d="M.254 36.457l9.746 4 9.576-4"/></g><path xmlns="http://www.w3.org/2000/svg" d="M0 36.457v5l10 4 10-4v-5l-10 4z" fill="@{green}";"/></svg>'
-      );
-      background-image: url("data:image/svg+xml,@{svg}");
-    }
 .crate-types .active, .crate-types :hover {
 background-color: @base!important;
 border-left-color: @red!important;
