@@ -184,7 +184,7 @@ button:not(.plain):not([disabled]).blue, .button:not(.plain):not([disabled]).blu
     color: @mantle!important;
       }
   }
-.theme-light {
+.theme-default {
     #catppuccin(@lightFlavor, @accentColor);
   }
 .theme-dark {
