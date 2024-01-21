@@ -2,7 +2,7 @@
 @name BH.co Catppuccin
 @namespace github.com/catppuccin/userstyles/styles/<port-name>
 @homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/<port-name>
-@version 0.0.1
+@version 0.0.2
 @updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/BH.co%20Catppuccin.user.css
 @supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3A<port-name>
 @description Soothing pastel theme for <port-name>
@@ -56,17 +56,27 @@
     @mantle: @catppuccin[@@lookup][@mantle];
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
+
 body {
-     background-color: @base!important
+     background-color: @base!important;
+     color: @text!important;
       }
 a {
      color: @text!important
       }
-a:link {
+a:link, a:visited {
      color: @blue!important
       }
 .light-gray-text {
      color: @subtext0!important
+      }
+.alert.success {
+     background-color: @green!important;
+     color: @mantle!important;
+      }
+.alert.success {
+     background-color: @green!important;
+     color: @mantle!important;
       }
 footer {
      background-color: @mantle!important;
@@ -124,6 +134,12 @@ nav div.secondary, nav .info {
 .card .viewed {
     background-color: @base!important
       }
+.card .name, .card .creator {
+     color: @subtext1!important;
+      }
+.offsale-text {
+     color: @subtext0!important;
+      }
 .hover-card:hover {
     background-color: @mantle!important
       }
@@ -139,9 +155,10 @@ color: @sapphire!important
 hr, .line {
     border-color: @surface1!important;
       }
-input.rigid, textarea.rigid, input, textarea {
+input.rigid, textarea.rigid, input, textarea, .select, select {
     background-color: @base!important;
     border-color: @mantle!important;
+    color: @text!important;
 }
 .bits-text {
 color: @peach!important;
