@@ -59,6 +59,9 @@ body {
      background-color: @base!important;
      color: @text!important;
       }
+.profile-card:hover {
+     background-color: @mantle!important;
+      }
 .tabs .tab.active, .tabs .tab-body {
      background-color: @surface0!important;
       }
@@ -82,6 +85,9 @@ a:link, a:visited {
      color: @blue!important
       }
 .light-gray-text {
+     color: @subtext1!important
+      }
+.gray-text {
      color: @subtext0!important
       }
 .alert.success {
@@ -145,7 +151,7 @@ nav div.secondary, nav .info {
 .card .thumbnail {
     background-color: @surface0!important
       }
-.card .content {
+.card .content, .toggle-user-desc:not(.open)::after, .read-more-desc {
     background-color: @surface0!important
       }
 .card .viewed {
