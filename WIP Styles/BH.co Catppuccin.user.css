@@ -78,6 +78,9 @@ body {
 .box {
  border-color: @mantle!important;
       }
+.profile-card.crate img {
+     background-color: @base!important;
+      }
 a {
      color: @text!important
       }
@@ -129,6 +132,9 @@ border-color: @yellow!important;
          color: @mantle!important;
      background-color: @blue!important;
 border-color: @sapphire!important;
+      }
+.status-dot.online {
+     background-color: @green!important;
       }
 .thread-label.green {
      color: @mantle!important;
