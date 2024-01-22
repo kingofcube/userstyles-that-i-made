@@ -51,8 +51,6 @@
     @surface1: @catppuccin[@@lookup][@surface1];
     @surface0: @catppuccin[@@lookup][@surface0];
     @base: @catppuccin[@@lookup][@base];
-    @transmantle: fadeout(@mantle, 50%);
-    @transsf1: fadeout(@surface1, 50%);
     @mantle: @catppuccin[@@lookup][@mantle];
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
@@ -62,10 +60,14 @@ body {
      color: @text!important;
       }
 .tabs .tab.active, .tabs .tab-body {
-     background-color: @surface1!important;
+     background-color: @surface0!important;
       }
 .tabs .tab {
-     background-color: @surface0!important;
+     background-color: @mantle!important;
+     border-color: @mantle!important;
+      }
+.tabs .tab-body {
+     border-color: @mantle!important;
       }
 .box.shaded {
      background-color: @base!important;
