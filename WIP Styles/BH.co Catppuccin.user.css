@@ -67,6 +67,12 @@ body {
 .tabs .tab {
      background-color: @surface0!important;
       }
+.box.shaded {
+     background-color: @base!important;
+      }
+.box {
+ border-color: @mantle!important;
+      }
 a {
      color: @text!important
       }
