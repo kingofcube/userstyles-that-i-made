@@ -61,6 +61,12 @@ body {
      background-color: @base!important;
      color: @text!important;
       }
+.tabs .tab.active, .tabs .tab-body {
+     background-color: @surface1!important;
+      }
+.tabs .tab {
+     background-color: @surface0!important;
+      }
 a {
      color: @text!important
       }
