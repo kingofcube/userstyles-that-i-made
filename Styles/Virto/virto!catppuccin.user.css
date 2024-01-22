@@ -212,12 +212,6 @@ img[style*="background-image:url('free_ban.png');"] {
     :root {
       #catppuccin(@darkFlavor, @accentColor);
     }
-  }
-  body.light-theme {
-    #catppuccin(@lightFlavor, @accentColor);
-  }
-  body.dark-theme {
-    #catppuccin(@darkFlavor, @accentColor);
-  }
+}
 }
 // vim:ft=less
