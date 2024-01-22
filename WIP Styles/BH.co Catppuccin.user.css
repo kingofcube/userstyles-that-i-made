@@ -104,13 +104,13 @@ footer {
       }
 .label {
      color: @subtext1!important
-}
+      }
 .card .top:not(.absolute).green {
      color: @mantle!important;
      background-color: @green!important;
 border-color: @green!important;
       }
-.card .top:not(.absolute).red {
+.card .top:not(.absolute).red, button:not(.plain):not([disabled]).red, .button:not(.plain):not([disabled]).red {
      color: @mantle!important;
      background-color: @red!important;
 border-color: @maroon!important;
@@ -120,7 +120,7 @@ color: @text!important;
      border-color: @surface0!important;
      background-color: @surface1!important;
       }
-.card .top:not(.absolute).orange {
+.card .top:not(.absolute).orange, button:not(.plain):not([disabled]).orange, .button:not(.plain):not([disabled]).orange {
          color: @mantle!important;
      background-color: @peach!important;
 border-color: @yellow!important;
