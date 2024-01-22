@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name          BH.co Borderless
+@namespace      a
+@version        1.0.0
+@description    uhhh
+@author         King_Cube
+==/UserStyle== */
+
+@-moz-document domain("brick-hill.co") {
+* {
+border-radius: 0px!important;
+    }
+}
