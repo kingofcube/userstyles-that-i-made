@@ -3,8 +3,7 @@
 @namespace github.com/catppuccin/userstyles/styles/example.org
 @homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/example.org
 @version 0.0.1
-@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/virto!catppuccin.user.css
-@supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3Aexample.org
+@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/Virto/virto!catppuccin.user.css
 @description Soothing pastel theme for Virto!
 @author Catppuccin, King_Cube
 @license MIT
@@ -122,6 +121,9 @@ h6 {
 }
 a, a span {
     color: @text!important;
+      }
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button, select, .button-style {
+background-color: @surface0!important
       }
 p {
     color: @text!important;
