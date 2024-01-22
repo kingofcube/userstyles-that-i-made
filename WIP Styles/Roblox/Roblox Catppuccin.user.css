@@ -3,10 +3,10 @@
 @namespace github.com/catppuccin/userstyles/styles/<port-name>
 @homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/<port-name>
 @version 0.0.1
-@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/Roblox%20Catppuccin.user.css
+@updateURL https://github.com/catppuccin/userstyles/raw/main/styles/<port-name>/catppuccin.user.css
 @supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3A<port-name>
 @description Soothing pastel theme for Roblox
-@author Catppuccin, King_Cube
+@author Catppuccin
 @license MIT
 
 @preprocessor less
@@ -107,6 +107,9 @@ color: @text
     background-color: @surface0;
 color: @subtext1;
 }
+.list-item .group-card {
+    background-color: @surface0;
+      }
  .rbx-upgrade-now .btn-secondary-md {
     background-color: @accent-color;
 border: @accent-color;
