@@ -1,12 +1,12 @@
 /* ==UserStyle==
 @name BH.co Catppuccin
 @namespace github.com/catppuccin/userstyles/styles/<port-name>
-@homepageURL https://github.com/catppuccin/userstyles/tree/main/styles/<port-name>
+@homepageURL https://github.com/kingofcube/userstyles-that-i-made
 @version 0.0.2
 @updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/BH.co%20Catppuccin.user.css
 @supportURL https://github.com/catppuccin/userstyles/issues?q=is%3Aopen+is%3Aissue+label%3A<port-name>
-@description Soothing pastel theme for <port-name>
-@author Catppuccin
+@description Soothing pastel theme for BH.co
+@author Catppuccin, King Cube
 @license MIT
 
 @preprocessor less
@@ -78,7 +78,7 @@ body {
 .box {
  border-color: @mantle!important;
       }
-.profile-card.crate img {
+.profile-card.crate img, .trade-serial {
      background-color: @base!important;
       }
 a {
@@ -87,11 +87,9 @@ a {
 a:link, a:visited {
      color: @blue!important
       }
-.light-gray-text {
-     color: @subtext1!important
-      }
-.gray-text {
-     color: @subtext0!important
+button:not(.plain) {
+     background-color: @surface0;
+     border-color: @surface1!important
       }
 .alert.success {
      background-color: @green!important;
@@ -150,6 +148,14 @@ nav div.primary {
 nav div.secondary, nav .info {
     background-color: @surface0!important
       }
+.fieldset.green, .fieldset.green legend {
+     border-color: @green!important;
+     color: @green!important;
+      }
+.fieldset.red, .fieldset.red legend {
+     border-color: @red!important;
+     color: @red!important;
+      }
 .item-content {
     background-color: @surface1!important;
     border-top: @surface0!important;
@@ -166,12 +172,13 @@ nav div.secondary, nav .info {
 .card .name, .card .creator {
      color: @subtext1!important;
       }
-.offsale-text {
-     color: @subtext0!important;
-      }
 .hover-card:hover {
     background-color: @mantle!important
       }
+.owned-check-tri.owns {
+     border-top-color: @green!important;
+      }
+/* Text Colors */
 .green-text {
 color: @green!important
       }
@@ -181,6 +188,25 @@ color: @red!important
 .blue-text {
 color: @sapphire!important
       }
+.offsale-text {
+     color: @subtext0!important;
+      }
+.light-gray-text {
+     color: @subtext1!important
+      }
+.gray-text {
+     color: @subtext0!important
+      }
+.bits-text {
+color: @peach!important;
+      }
+.bucks-text {
+color: @green!important;
+      }
+.ellipsis { /* This is for the item text in the customize page btw */
+     color: @subtext0!important;
+      }
+
 hr, .line {
     border-color: @surface1!important;
       }
@@ -189,9 +215,6 @@ input.rigid, textarea.rigid, input, textarea, .select, select {
     border-color: @mantle!important;
     color: @text!important;
 }
-.bits-text {
-color: @peach!important;
-      }
 button:not(.plain):not([disabled]).green, .button:not(.plain):not([disabled]).green {
     background-color: @green!important;
     border-color: @green!important;
