@@ -271,6 +271,10 @@ border-color: @overlay2
 .btr-profile .btr-status-online {
 color: @blue;
       }
+.btr-game-button {
+background-color: @surface1!important;
+border-color: @surface1!important;
+}
 .roseal-menu-secondary-container {
         background-color: @mantle;
       }
@@ -295,10 +299,6 @@ border-color: @overlay2;
 background-color: @base!important;
 color: @text!important;
       }
-.btr-profile .btr-games-list .btr-game-button {
-    background-color: @surface1;
-    border-color: @surface1;
-}
 .ropro-cloud-play-container {
 background-color: @surface0!important;
       }
