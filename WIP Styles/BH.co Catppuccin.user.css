@@ -84,6 +84,10 @@ body {
 a {
      color: @text!important
       }
+a[style="font-size:14px;"] {
+ background-color: @surface0;
+     border-color: @surface1!important
+      }
 a:link, a:visited {
      color: @blue!important
       }
@@ -210,10 +214,14 @@ color: @green!important;
 hr, .line {
     border-color: @surface1!important;
       }
-input.rigid, textarea.rigid, input, textarea, .select, select {
+input.rigid, textarea.rigid, input, textarea, .select {
     background-color: @base!important;
     border-color: @mantle!important;
     color: @text!important;
+}
+select {
+    background-color: @surface0!important;
+    border-color: @mantle!important;
 }
 button:not(.plain):not([disabled]).green, .button:not(.plain):not([disabled]).green {
     background-color: @green!important;
