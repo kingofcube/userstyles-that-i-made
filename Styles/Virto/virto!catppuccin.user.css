@@ -1,11 +1,11 @@
  /* ==UserStyle==
 @name virto!catppuccin
-@namespace https://github.com/kingofcube/userstyles-that-i-made
-@homepageURL https://github.com/kingofcube/userstyles-that-i-made/tree/main/Styles/Virto
-@version 0.0.2
-@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/Virto/virto!catppuccin.user.css
+@namespace github.com/kingofcube/userstyles-that-i-made/Styles/Virto
+@homepageURL github.com/kingofcube/userstyles-that-i-made
+@version 0.0.3
+@updateURL github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/Virto/virto!catppuccin.user.css
 @description Soothing pastel theme for Virto!
-@author Catppuccin, King_Cube
+@author Catppuccin, King Cube
 @license MIT
 
 @preprocessor less
@@ -69,7 +69,13 @@ background-color: @green!important;
 border-color: @green!important;
 color: @mantle!important;
       }
-#snavbar {
+table[style="background-color: #8494aa;"] {
+background-color: @surface1!important;
+      }
+table[style="background-color:#000; margin-top:30px;"] {
+background-color: @mantle!important;
+      }
+ #snavbar {
 background-color: @surface0!important;
       }
 .thread-title {
@@ -79,6 +85,9 @@ background-color: @surface0!important;
 background-color: @crust!important;
 border-color: @mantle!important;
 }
+#subsect {
+    border-color: @surface1!important
+      }
 #rad {
     background-color: @surface1;
 border: @base;
@@ -92,7 +101,7 @@ h2 {
 .shopSideBarButton {
     color: @subtext1!important; 
 }
-.offline {
+.offline, i[style="color:#DD0000;font-size:15px;"] {
     color: @red!important;
 }
 .online {
@@ -123,7 +132,7 @@ a, a span {
     color: @text!important;
       }
 input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button, select, .button-style {
-background-color: @surface0!important
+background-color: @surface0;
       }
 p {
     color: @text!important;
@@ -212,6 +221,6 @@ img[style*="background-image:url('free_ban.png');"] {
     :root {
       #catppuccin(@darkFlavor, @accentColor);
     }
-}
+  }
 }
 // vim:ft=less
