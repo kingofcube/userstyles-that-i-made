@@ -242,6 +242,9 @@ color: @text;
 .carousel-controls.btn-primary-md, .carousel-controls.btn-primary-md, .game-card-container .game-card-thumb-container {
 background-color: @transmantle;
       }
+.friends-content .avatar-card-content {
+   background-color: @surface0;
+      }
 .popover {
    background-color: @surface0;
 }
@@ -308,7 +311,15 @@ background-color: @mantle!important;
 .btr-preview-container, .item-thumbnail-container .asset-thumb-container {
       background-color: @surface0
       }
-
+.btr-status-ingame {
+color: @green!important;
+}
+.btr-status-online {
+color: @blue!important
+}
+.btr-status-offline {
+color: @surface1!important
+}
 .btr-thumb-btn-container .btr-thumb-btn, .btr-thumb-btn-container .btr-thumb-popup {
 background-color: @surface1!important;
       }
