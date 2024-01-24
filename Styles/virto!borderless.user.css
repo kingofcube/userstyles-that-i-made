@@ -1,46 +1,15 @@
 /* ==UserStyle==
 @name           virto!borderless
-@namespace      github.com/openstyles/stylus
+@namespace https://github.com/kingofcube/userstyles-that-i-made/Styles/Virto
+@homepageURL https://github.com/kingofcube/userstyles-that-i-made
+@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/Virto/virto!borderless.user.css
 @version        1.0.2
 @description    mmm, blocky
 @author         King_Cube
 ==/UserStyle== */
 
 @-moz-document domain("mtndew2.serv00.net") {
-::-webkit-scrollbar-thumb {
-    border-radius: 0px;
-}
-div[style="border: 1px solid green;border-radius: 10px;background-color: green;color: limegreen;padding: 3px;margin-top:5px; width:50%; text-align:center;"] {
-    border-radius: 0px!important;
-    }
-.dropdown-content {
-    border-radius: 0px;
-}
-.thread-title {
-    border-radius: 0px;
-}
-#snavbar {
-    border-radius: 0px;
-}
-#box {
-    border-radius: 0px;
-}
-#info {
-    border-radius: 0px;
-}
-#navbar {
-    border-radius: 0px;
-}
-#footer {
-    border-radius: 0px;;
-}
-#shopitem {
-    border-radius: 0px!important;
-    }
-.profile-display {
-    border-radius: 0px!important;
-    }
-:root input[type="button" i], :root input[type="submit" i], :root input[type="reset" i], :root input[type="file" i]::-webkit-file-upload-button, :root .button-style {
-    border-radius: 0px!important;
+* {
+    border-radius: 0px!important
     }
 }
