@@ -1,12 +1,12 @@
 /* ==UserStyle==
-@name          BH.co Borderless
+@name          Brickite Borderless
 @namespace      https://github.com/kingofcube/userstyles-that-i-made/tree/main/Styles
 @version        1.0.0
 @description    uhhh
 @author         King_Cube
 ==/UserStyle== */
 
-@-moz-document domain("brick-hill.co") {
+@-moz-document domain("brickite.com") {
 * {
 border-radius: 0px!important;
     }
