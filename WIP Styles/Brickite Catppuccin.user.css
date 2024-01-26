@@ -193,7 +193,7 @@ nav div.secondary, nav .info {
     background-color: @surface0!important
       }
 .card .viewed {
-    background-color: @base!important
+    background-color: color-mix(in lch, @base, @surface0)!important
       }
 .card .name, .card .creator {
      color: @subtext1!important;
@@ -220,6 +220,9 @@ color: @sapphire!important
 .gray-text,.light-gray-text, .stat .title {
      color: @subtext1!important
       }
+nav div.secondary ul li a:hover, nav div.secondary ul li a.active, nav div.primary ul li a:hover, nav div.primary ul li a.active {
+    border-color: @overlay2!important
+}
 .darkest-gray-text {
      color: @subtext0!important
       }
@@ -229,6 +232,16 @@ color: @peach!important;
 .bucks-text {
 color: @green!important;
       }
+.divide {
+background-color: @base;
+      }
+.forum-tag {
+background-color: @base;
+    color: @text;
+      }
+.forum-tag:after {
+    border-right-color: @base;
+}
 .ellipsis { /* This is for the item text in the customize page btw */
      color: @subtext0!important;
       }
@@ -274,7 +287,15 @@ button:not(.plain):not([disabled]).blue, .button:not(.plain):not([disabled]).blu
     border-color: @blue!important;
     color: @mantle!important;
       }
-  }
+footer:after {
+    content: '[ Made with love by King-Cube :3 ]';
+    color: @accent-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-size: 10px
+}
+}
 .theme-default {
     #catppuccin(@lightFlavor, @accentColor);
   }
