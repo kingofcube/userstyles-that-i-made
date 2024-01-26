@@ -91,7 +91,7 @@ color: @text;
 a {
      color: @text!important
       }
-a[style="font-size:14px;"] {
+a[style="font-size:14px;"], .button.no-click {
  background-color: @surface0;
      border-color: @surface1!important
       }
@@ -131,6 +131,9 @@ footer {
      background-color: @green!important;
 border-color: @green!important;
       }
+.blockquote.green, blockquote.green {
+border-color: @green
+}
 .card .top:not(.absolute).red, button:not(.plain):not([disabled]).red, .button:not(.plain):not([disabled]).red {
      color: @mantle!important;
      background-color: @red!important;
@@ -161,6 +164,9 @@ border-color: @sapphire!important;
 .crate-types .active, .crate-types :hover {
 background-color: @base!important;
 border-left-color: @red!important;
+      }
+.hover-card.viewed {
+background-color: @base!important;
       }
 nav div.primary {
     background-color: @mantle!important
@@ -211,10 +217,10 @@ color: @sapphire!important
 .offsale-text {
      color: @subtext0!important;
       }
-.light-gray-text {
+.gray-text,.light-gray-text, .stat .title {
      color: @subtext1!important
       }
-.gray-text {
+.darkest-gray-text {
      color: @subtext0!important
       }
 .bits-text {
