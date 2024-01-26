@@ -223,7 +223,7 @@ color: @sapphire!important
 nav div.secondary ul li a:hover, nav div.secondary ul li a.active, nav div.primary ul li a:hover, nav div.primary ul li a.active {
     border-color: @overlay2!important
 }
-.darkest-gray-text {
+.darkest-gray-text, .dark-gray-text {
      color: @subtext0!important
       }
 .bits-text {
