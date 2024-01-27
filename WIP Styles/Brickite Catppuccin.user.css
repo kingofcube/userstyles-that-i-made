@@ -14,7 +14,6 @@
 @var select lightFlavor "Light Flavor" ["latte:Latte*", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha"]
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire*", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
-@var checkbox ShowCredit "Show Custom Message in Footer." 1
 ==/UserStyle== */
 
 /* If you need any help with the information above, please see: https://github.com/openstyles/stylus/wiki/Writing-UserCSS#var */
@@ -300,17 +299,6 @@ button:not(.plain):not([disabled]).blue, .button:not(.plain):not([disabled]).blu
     background-color: @sapphire!important;
     border-color: @blue!important;
     color: @mantle!important;
-      }
-footer:after {
-    content: '[ Made with love by King Cube <3 ]';
-    color: @accent-color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-font-size: 10px
-}
-footer:after when (@ShowCredit = 0) {
-  display: none;
 }
 }
 .theme-default {
