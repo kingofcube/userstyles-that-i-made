@@ -122,17 +122,6 @@ color: @subtext0!important;
 				background-color: @crust!important;
                    
 }
-#PageFooter:after {
-    content: '[ Made with love by King Cube :3 ]';
-    color: @accent-color;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-font-size: 15px
-}
-#PageFooter:after when (@ShowCredit = 0) {
-  display: none;
-}
 
   }
 
