@@ -136,6 +136,18 @@ border-color: @green!important;
 .blockquote.green, blockquote.green {
 border-color: @green
 }
+.blockquote.blue, blockquote.blue {
+border-color: @sapphire
+}
+.blockquote.red, blockquote.red {
+border-color: @red
+}
+.blockquote.orange, blockquote.orange {
+border-color: @peach
+}
+.blockquote.gray, blockquote.gray {
+border-color: @overlay2
+}
 .card .top:not(.absolute).red, button:not(.plain):not([disabled]).red, .button:not(.plain):not([disabled]).red {
      color: @mantle!important;
      background-color: @red!important;
@@ -290,7 +302,7 @@ button:not(.plain):not([disabled]).blue, .button:not(.plain):not([disabled]).blu
     color: @mantle!important;
       }
 footer:after {
-    content: '[ Made with love by King-Cube :3 ]';
+    content: '[ Made with love by King Cube <3 ]';
     color: @accent-color;
   display: flex;
   align-items: center;
