@@ -55,6 +55,7 @@
     @mantle: @catppuccin[@@lookup][@mantle];
     @transmantle: fadeout(@mantle, 30%);
     @crust: @catppuccin[@@lookup][@crust];
+ @transcrust: fadeout(@crust, 30%);
     @accent-color: @catppuccin[@@lookup][@@accent];
 
         --BodyBackground: @base;
@@ -73,7 +74,7 @@
 --PageTitleColor: @text;
         --DefaultTextColor: @text;
 --ButtonFontColor: @text;
---DefaultGrayColor: @surface0;
+--DefaultGreyColor: @overlay2;
         --InputTextColor: @subtext1;
         --AuxiliaryColumnBackground: @transmantle;
         --SubNavigatorDropdownBackgroundColor: @crust;
@@ -91,6 +92,15 @@
 
 .SubmissionCard .Title {
 background-color: @transbase!important
+      }
+#SearchResults .StrangeBerryInput>label {
+background-color:  color-mix(in lch, @base, @surface0)!important
+      }
+.tippy-content {
+				background-color: fadeout(@crust, 10%);
+      }
+.Record:hover .IdentityWrapper:hover, .Record:hover .CategoryWrapper:hover, .Record:hover .StudioWrapper:hover {
+				background-color: fadeout(@crust, 25%);
       }
 dt {
 color: @subtext1!important;
@@ -110,6 +120,18 @@ color: @subtext0!important;
                    	.AvatarTooltip {
 				background-color: @crust!important;
                    
+}
+#PageFooter:after {
+    content: '[ Made with love by King Cube :3 ]';
+    color: @accent-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+font-size: 15px
+}
+#PageFooter:after when (@ShowCredit = 0) {
+  display: none;
+}
 }
 
   }
