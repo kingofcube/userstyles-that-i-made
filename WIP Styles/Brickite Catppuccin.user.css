@@ -237,6 +237,15 @@ color: @sapphire!important
 nav div.secondary ul li a:hover, nav div.secondary ul li a.active, nav div.primary ul li a:hover, nav div.primary ul li a.active {
     border-color: @overlay2!important
 }
+.status-dot {
+    background-color: @overlay2!important
+      }
+.dropdown-content.logout-dropdown li * {
+    background-color: @overlay0!important
+      }
+.dropdown-content.logout-dropdown .dropdown-arrow {
+    border-bottom-color: @overlay0!important
+      }
 .darkest-gray-text, .dark-gray-text {
      color: @subtext0!important
       }
@@ -273,6 +282,9 @@ input.rigid, textarea.rigid, input, textarea, .select {
       }
 .new-theme .button-search {
     background-color: linear-gradient(@blue, 60%, darken(@blue, 10%))!important;
+      }
+span[style="display:block;padding-bottom:5px;color:red;"] {
+color: @red!important
       }
 .blockquote.green {
     border-color: @green!important;
