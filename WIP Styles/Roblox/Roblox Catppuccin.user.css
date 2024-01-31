@@ -90,6 +90,10 @@ color: @blue;
 a, a:active, a:focus, a:hover, a:link, a:visited {
 color: @text;
       }
+ .game-home-page-container .home-interleave-divider {
+border-color: @base!important;
+background-color: @base!important
+}
  .horizontal-scroller .scroller .spacer {
     background-color: @base;
 }
