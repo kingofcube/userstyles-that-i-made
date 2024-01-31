@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Ropro Sandbox Icon Fixer for Firefox
+@namespace      https://github.com/kingofcube/userstyles-that-i-made
+@version        1.0.0
+@description    the site is now usable
+@author         King Cube
+==/UserStyle== */
+
+@-moz-document domain("roblox.com") {
+    .sandbox-icon .new-menu-icon {
+background-image: url(moz-extension://2a4cbfa1-7c30-4b17-9837-66edfa3c6de5/images/sandbox_icon_darkmode_inactive.svg)!important
+    }
+}
