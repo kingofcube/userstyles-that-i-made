@@ -1,0 +1,32 @@
+/* ==UserStyle==
+@name           Top.gg if it was good
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    YES! YEEEEEEEEESSSSSSSSSSS!!!
+@author         King Cube
+
+@preprocessor less
+@var checkbox HideTags "Hide Tags" 0
+@var checkbox HidePromote "Hide Promoted Bots & Servers" 1
+@var checkbox HideGrad "Hide Background Gradient" 0
+@var checkbox HideSpaces "Hide Spaces" 1
+==/UserStyle== */
+
+@-moz-document domain("top.gg") {
+/* ads lol */
+.AditudeAdHeaderHero__AdContainer-sc-s24zf8-0, .AditudeOutstreamVideoAside__AdContainer-sc-1mx0p1r-0, .AditudeAdMediumRect__AdContainer-sc-9wmwq1-0, .AditudeAdEntityList__AdContainer-sc-1crzs6h-0 {
+display: none;
+    }
+.chakra-stack.css-bnlw08 when (@HideTags = 1) {
+  display: none;
+    }
+.chakra-stack.css-1xgcd9o when (@HidePromote = 1) {
+  display: none;
+    }
+.StyleProvider__BackgroundGradient-sc-1wukuln-0 when (@HideGrad = 1) {
+  display: none;
+    }
+.css-70qvj9 > .css-a4do4s.chakra-button when (@HideSpaces = 1) {
+  display: none;
+    }
+}
