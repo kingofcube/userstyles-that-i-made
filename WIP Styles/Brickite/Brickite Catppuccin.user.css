@@ -116,6 +116,9 @@ button[style="background:#999;"] {
 .clan-img-holder {
 background-color: @base;
 }
+.item.filled {
+    background-image: radial-gradient(circle, @surface0 0%, @base 75%)!important
+      }
 .alert.success {
      background-color: @green!important;
      color: @mantle!important;
