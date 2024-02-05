@@ -113,6 +113,9 @@ button[style="background:#999;"] {
      background-color: @peach!important;
      color: @mantle!important;
       }
+.clan-img-holder {
+background-color: @base;
+}
 .alert.success {
      background-color: @green!important;
      color: @mantle!important;
