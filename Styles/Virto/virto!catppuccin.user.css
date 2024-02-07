@@ -78,6 +78,10 @@ background-color: @mantle!important;
  #snavbar {
 background-color: @surface0!important;
       }
+h5[style="text-align:center;background-color:green;color:white;margin-top:5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px;"] {
+background-color: @green!important;
+color: @mantle!important;
+      }
 .thread-title {
     background-color: @surface0!important;
 }
@@ -92,11 +96,16 @@ border-color: @mantle!important;
     background-color: @surface1;
 border: @base;
 }
+input[style="border:1px solid #c3cdd2; background-color:Orange; color:#FFF;"], input[style="border:1px solid #c3cdd2; background-color:Green; color:#FFF;"] {
+background-color: @accent-color!important;
+color: @mantle!important
+      }
 h2 {
     color: @subtext1!important;
 }
 .dropdown-content a:hover {
     background-color: @accent-color!important;
+color: @mantle!important;
 }
 .dropdown-content {
 background-color: @base;
@@ -124,7 +133,7 @@ color: @subtext0
 input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button, :root input, :root textarea, :root td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
     color: @text
 }
-div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-quote-right {
+div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-pencil, .fa-refresh, .fa-quote-right {
     color: @accent-color!important;
 }
 h3 {
@@ -155,6 +164,19 @@ span {
 p[style="color:#44A4EE;"] {
     color: @accent-color!important;
 }
+.spoiler {
+background-color: @surface1;
+color: @text;
+}
+td {
+background-color: @base
+      }
+th {
+background-color: lighten(@surface0, 10%)
+}
+table[style="background-color:#b0c4de;"] {
+background-color: @overlay1!important
+      }
 p.description, .fa-thumb-tack, .fa-lock, .fa-pencil, .fa-refresh {
 color: @accent-color
 }
@@ -177,7 +199,7 @@ border-bottom-color: @surface1;
 border-color: @surface1;
       }
 #shopItem {
-background-color: @surface1;
+background-color: @surface0;
 border-color: @mantle;
       }
 #news {
