@@ -14,7 +14,7 @@
 @var select lightFlavor "Light Flavor" ["latte:Latte*", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha"]
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire*", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
-@var checkbox NoLogo "Hide Logo" 0
+@var checkbox NoYouCard "Hide the You! card thing" 0
 ==/UserStyle== */
 
 /* If you need any help with the information above, please see: https://github.com/openstyles/stylus/wiki/Writing-UserCSS#var */
@@ -43,6 +43,7 @@
     @sky: @catppuccin[@@lookup][@sky];
     @sapphire: @catppuccin[@@lookup][@sapphire];
     @blue: @catppuccin[@@lookup][@blue];
+    @transblue: fadeout(@blue, 30%);
     @lavender: @catppuccin[@@lookup][@lavender];
     @text: @catppuccin[@@lookup][@text];
     @subtext1: @catppuccin[@@lookup][@subtext1];
@@ -73,20 +74,40 @@
 --danger-400: @red;
 --danger-500: darken(@red, 5%);
 --danger-600: darken(@red, 10%);
---input-bg: @overlay2;
---input-border-color: @overlay1;
+--input-bg: @surface1;
+--input-border-color: @overlay0;
 --gray-600: @surface2;
-   
+--sidebar-active-color: @blue;
+--sidebar-active-bg: #rgbify(@transblue) [];
+--sidebar-upgrade-color: @mauve;
+--tooltip-bg: @surface0;
+--warning-800: @peach;
+--warning-700: lighten(@peach, 2%);
 .btn-success, .alert-danger {
 color: @mantle!important
-      }  
+      }
+      .alert {
+color: @mantle;
+background-color: @red;
+      }
 .btn-info, .alert-info {
 color: @text!important
       } 
-li.nav-item.cell.shrink.me-2 when (@NoLogo = 1) {
+div[style="background-color: #4c97d8;"] when (@NoYouCard = 1) {
   display: none;
 }
+      .card.card-body.card-inner.w-100, .card-inner {
+background-color: @surface0;
+border-color: @surface1;
+      }
+.form {
+color: @text
+      }
 }
+
+ #rgbify(@color) {
+    @rgb-raw: red(@color), green(@color), blue(@color);
+  }
 
   @media (prefers-color-scheme: light) {
     :root {
