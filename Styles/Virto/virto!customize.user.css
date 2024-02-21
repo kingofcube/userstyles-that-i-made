@@ -2,10 +2,11 @@
 @name         virto!customize
 @namespace    USO Archive
 @author       King_Cube
-@description  u can change the colors lol (cant bother to make a preview)
-@version      1.0
+@description  u can change the colors lol
+@version      1.0.1
 @license      NONE
 @preprocessor uso
+@var text bannerimage "Banner Logo" https://mtndew2.serv00.net/assets/nhdr.png
 @advanced color bgcolor "Background Color" #202225
 @advanced color tcolor "Text" white
 @advanced color snavbarcolor "Navigation Bar" #2f3136
@@ -14,6 +15,7 @@
 @advanced color sbcolor "Shop Buttons" #36393f
 @advanced color light-elecolor "Light Element" #2a2c31
 @advanced color lighter-elecolor "Lighter Element" #484b51
+@advanced color dpcolor "Dropdown Menu" #2a2c31
 @advanced color bordercolor "Border" #202225
 @advanced color light-bordercolor "Light Border" #2a2c31
 @advanced color dblue "Dark Blue" #4E5D94
@@ -35,12 +37,21 @@
 --shop-button: /*[[sbcolor]]*/;
 --snavbar: /*[[snavbarcolor]]*/;
 --forumthread: /*[[ftcolor]]*/;
+--dpmenu: /*[[dpcolor]]*/;
 }
 body {
     background: var(--bkg-color)!important;
 }
 
 /*Elements */
+
+#banner {
+background-image: url("/*[[bannerimage]]*/");
+    }
+
+.dropdown-content a {
+    background-color: var(--dpmenu);
+    }
 #welcome {
     background: var(--element)!important;
     border-color: var(--border);
@@ -66,10 +77,8 @@ div[style="border: 1px solid #b57500;background-color: #ffa500;color: #fff;text-
     background-color: var(--element)!important;
     border-color: var(--border)!important;
 }
-a, a span {
+a, a span, .shopSideBarButton {
     color: var(--color)!important;
-    text-decoration: none!important;
-    word-break: break-word;
 }
 th, #navlower {
     background: var(--light-element)!important;
@@ -78,10 +87,6 @@ th, #navlower {
     background-color: var(--dark-blue)!important;
     color: var(--color)!important;
     border-color: var(--border)!important;
-    padding: 3px;
-}
-.blocker, iframe[src*="https://googleads"] {
-    filter: grayscale(1);
 }
 #shopItem {
     background-color: var(--light-element)!important;
@@ -99,16 +104,9 @@ color: var(--green)!important;
 input, textarea {
     background: var(--light-element)!important;
     border-color: var(--border)!important;
-    border-style: solid;
-    border-width: 1px;
 }
-input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button:not(.colorPallete), select, .button-style, .button {
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, select, .button-style, .button, button {
     background-color: var(--button)!important;
-}
-a[href="upload"].button-style {
-    font-size: 11px;
-    padding: 5px 6px 5px 6px;
-    text-decoration: none;
 }
 a[onclick*="getPage('all','', "], a[onclick*="getPage('hat','', "], a[onclick*="getPage('tool','', "], a[onclick*="getPage('tshirt','', "], a[onclick*="getPage('face','', "], a[onclick*="getPage('shirt','', "], a[onclick*="getPage('pants','', "], a[onclick*="getPage('head','', "], a[onclick*="getWall("], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('hat',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('tool',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('tshirt',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('face',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('shirt',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('pants',"], div[style="width:100%;display:block;overflow:auto;"] a[onclick*="getPage('head',"], .numButtonsHolder a {
     background-color: var(--light-element);
@@ -142,9 +140,6 @@ p.description, .fa-thumb-tack, .fa-lock, .fa-pencil, .fa-refresh {
 div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"], .fa-flag, .fa-quote-right {
     color: var(--color)!important;
 }
-img[src="shuttle.png"] {
-    filter: brightness(3) contrast(0.8);
-}
 a.label {
     color: #bbbbbb!important;
 }
@@ -163,10 +158,6 @@ blockquote {
 }
 div[onclick*="panel('"] {
     background-color: var(--light-element)!important;
-}
-#wall #subsect div[style="float:left;"] {
-    float: initial!important;
-    overflow: hidden;
 }
 div[style="text-align:center;height:140px;"] div[style="width:84px;margin:4px;display:inline-block;"] {
     word-break: break-word;
@@ -187,17 +178,6 @@ div[style="float:left;text-align:center;margin-right:10px;padding-bottom: 100px;
 .red-button {
     padding: 3px;
 }
-pre {
-    color: white;
-    border-left: 10px solid var(--border);
-    padding: 5px;
-    padding-top: 0px;
-    width: 94%;
-    background: var(--light-element);
-    border-radius: 5px;
-    border-top: 20px solid var(--border);
-    overflow-x: scroll;
-}
 div[style="width:44%;float:left;border:1px solid black;margin:10px 20px;padding:10px;background-color:white;"], div[style="width:44%;float:right;border:1px solid black;margin:10px 20px 0px 0px;padding:10px;background-color:white;"] {
     background: var(--light-element)!important;
 }
@@ -207,11 +187,6 @@ div[style="width:44%;float:left;border:1px solid black;margin:10px 20px;padding:
 }
 input, textarea, td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
     color: var(--color)!important;
-    font-size: 14px!important;
-}
-#footer {
-    overflow: hidden;
-    padding-bottom: 40px;
 }
 
 /*custom scrollbar */
@@ -240,32 +215,32 @@ p {
 }
 h1 {
     font-size: 36px;
-    color: #f2f2f2!important;
+    color: var(--color)!important;
     margin: 5px;
 }
 h2 {
     font-size: 30px;
-    color: #ddd!important;
+    color: var(--color)!important;
     margin: 5px;
 }
 h3 {
     font-size: 24px;
-    color: #f9f9f9!important;
+    color: var(--color)!important;
     margin: 5px;
 }
 h4 {
     font-size: 18px;
-    color: #f8f8f8!important;
+    color: var(--color)!important;
     margin: 5px;
 }
 h5 {
     font-size: 14px;
-    color: #ccc!important;
+    color: var(--color)!important;
     margin: 5px;
 }
 h6 {
     font-size: 12px;
-    color: #e5e5e5!important;
+    color: var(--color)!important;
     margin: 5px;
 }
 }
