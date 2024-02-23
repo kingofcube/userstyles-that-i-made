@@ -15,6 +15,7 @@
 @var select darkFlavor "Dark Flavor" ["latte:Latte", "frappe:Frappé", "macchiato:Macchiato", "mocha:Mocha*"]
 @var select accentColor "Accent" ["rosewater:Rosewater", "flamingo:Flamingo", "pink:Pink", "mauve:Mauve", "red:Red", "maroon:Maroon", "peach:Peach", "yellow:Yellow", "green:Green", "teal:Teal", "blue:Blue", "sapphire:Sapphire*", "sky:Sky", "lavender:Lavender", "subtext0:Gray"]
 @var checkbox NoYouCard "Hide the You! card thing" 0
+@var checkbox NoLogo "Hide Logo" 1
 ==/UserStyle== */
 
 /* If you need any help with the information above, please see: https://github.com/openstyles/stylus/wiki/Writing-UserCSS#var */
@@ -93,9 +94,19 @@ background-color: @red;
 .btn-info, .alert-info {
 color: @text!important
       } 
+button.btn.btn-info.mb-2.w-100.d-block {
+color: @mantle!important
+      }
 div[style="background-color: #4c97d8;"] when (@NoYouCard = 1) {
   display: none;
 }
+li.nav-item.cell.shrink.me-2 when (@NoLogo = 1) {
+  display: none;
+}
+div[style="background-color: #ff9c00; color: white;"] {
+background-color: @peach!important;
+color: @mantle!important;
+      }
       .card.card-body.card-inner.w-100, .card-inner {
 background-color: @surface0;
 border-color: @surface1;
