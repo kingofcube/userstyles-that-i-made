@@ -65,10 +65,21 @@
     background-color: @mantle;
     border: @overlay2;
       }
-.content, .container-empty, .section-content-off {
+.content, .container-empty, .section-content-off, .table {
     background-color: @base;
 color: @text;
 }
+.btn-growth-md.btn-more {
+    background-color: @green;
+border-color: @green;
+color: @mantle!important;
+      }
+.btr-feedtitle {
+color: @overlay2!important;
+      }
+.btr-feeddesc {
+color: @overlay1!important;
+      }
  .icon-default-navigation,  .icon-nav-blog,  .icon-nav-charactercustomizer,  .icon-nav-friends,  .icon-nav-giftcards,  .icon-nav-group,  .icon-nav-home,  .icon-nav-inventory,  .icon-nav-menu,  .icon-nav-message,  .icon-nav-my-feed,  .icon-nav-notification-stream,  .icon-nav-profile,  .icon-nav-robux,  .icon-nav-search-white,  .icon-nav-settings,  .icon-nav-shop,  .icon-nav-trade {
 color: @accent-color;
       }
@@ -175,7 +186,16 @@ border-color: @surface1;
     border-color: @surface1;
 }
 .open .dropdown-menu {
-    background-color: @base
+    background-color: @base;
+      }
+.footer .text-footer-nav, .footer .text-footer-nav:active, .footer .text-footer-nav:link, .footer .text-footer-nav:visited {
+    color: @overlay2;
+      }
+ .footer .text-footer-nav.privacy,  .footer .text-footer-nav.privacy:active,  .footer .text-footer-nav.privacy:link,  .footer .text-footer-nav.privacy:visited,  .footer .text-footer-nav:focus,  .footer .text-footer-nav:hover {
+color: @text
+      }
+#buy-robux-popover-menu li a, #settings-popover-menu li a {
+    color: @text!important;
       }
 .annual-premium-takeover.page-refined, .annual-premium-takeover {
     color: @text;
