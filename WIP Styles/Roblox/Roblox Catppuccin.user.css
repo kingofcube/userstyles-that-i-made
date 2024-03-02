@@ -2,7 +2,7 @@
 @name Roblox Catppuccin
 @namespace https://github.com/kingofcube/userstyles-that-i-made/tree/main/WIP%20Styles/Roblox
 @homepageURL https://github.com/kingofcube/userstyles-that-i-made
-@version 0.0.1
+@version 0.0.2
 @updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/Roblox/Roblox%20Catppuccin.user.css
 @description Soothing pastel theme for Roblox
 @author Catppuccin
@@ -69,6 +69,32 @@
     background-color: @base;
 color: @text;
 }
+.dialogs .dialog-container .dialog-header, .chat-windows-header {
+color: @text;
+background-color: @mantle;
+      }
+.details-container, .details-members-container .add-friends-option, .friends-list-container {
+background-color: @surface0;
+color: @text
+      }
+.dialog-container .dialog-input-container .dialog-input {
+border-color: @mantle;
+    background-color: @crust;
+color: @subtext1
+      }
+.dialogs .dialog-container .dialog-message-container .dialog-message {
+background-color: @surface1;
+border-color: @surface1;
+    color: @text;
+      }
+.dialogs .dialog-container .dialog-message-container.message-inbound .dialog-message {
+      background-color: @mantle;
+border-color: @mantle;
+    color: @text;
+}
+.dialogs .dialog-container .dialog-body {
+background-color: @surface0
+      }
 .btn-growth-md.btn-more {
     background-color: @green;
 border-color: @green;
@@ -297,6 +323,15 @@ border-color: @overlay2
 /* Addons Support */
 .btr-profile .btr-status-online {
 color: @blue;
+      }
+.avatar-headshot-sm .avatar-status.chat-friend-status.online, .avatar-headshot-sm .avatar-status.icon-online, .avatar-headshot-sm .avatar-status span.chat-friend-status.online, .avatar-headshot-sm .avatar-status span.icon-online, .avatar-headshot-xs .avatar-status.chat-friend-status.online, .avatar-headshot-xs .avatar-status.icon-online, .avatar-headshot-xs .avatar-status span.chat-friend-status.online, .avatar-headshot-xs .avatar-status span.icon-online {
+background-color: @blue;
+      }
+.avatar-headshot-sm .avatar-status.chat-friend-status.studio, .avatar-headshot-sm .avatar-status.icon-studio, .avatar-headshot-sm .avatar-status span.chat-friend-status.studio, .avatar-headshot-sm .avatar-status span.icon-studio, .avatar-headshot-xs .avatar-status.chat-friend-status.studio, .avatar-headshot-xs .avatar-status.icon-studio, .avatar-headshot-xs .avatar-status span.chat-friend-status.studio, .avatar-headshot-xs .avatar-status span.icon-studio {
+background-color: @peach;
+      }
+.avatar-headshot-sm .avatar-status.chat-friend-status.game, .avatar-headshot-sm .avatar-status.icon-game, .avatar-headshot-sm .avatar-status span.chat-friend-status.game, .avatar-headshot-sm .avatar-status span.icon-game, .avatar-headshot-xs .avatar-status.chat-friend-status.game, .avatar-headshot-xs .avatar-status.icon-game, .avatar-headshot-xs .avatar-status span.chat-friend-status.game, .avatar-headshot-xs .avatar-status span.icon-game {
+background-color: @green;
       }
 .btr-game-button {
 background-color: @surface1!important;
