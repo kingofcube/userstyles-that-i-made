@@ -2,7 +2,7 @@
 @name Roblox Catppuccin
 @namespace https://github.com/kingofcube/userstyles-that-i-made/tree/main/WIP%20Styles/Roblox
 @homepageURL https://github.com/kingofcube/userstyles-that-i-made
-@version 0.0.2
+@version 0.0.1
 @updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/WIP%20Styles/Roblox/Roblox%20Catppuccin.user.css
 @description Soothing pastel theme for Roblox
 @author Catppuccin
@@ -56,6 +56,13 @@
     @crust: @catppuccin[@@lookup][@crust];
     @accent-color: @catppuccin[@@lookup][@@accent];
 
+.btn-control-xs {
+color: @text
+      }
+.btr-preview-container-itempage {
+--btr-btn-color: @surface1!important;
+--btr-btn-color-disabled: @surface0!important;
+      }
 
     .rbx-left-col {
     background-color: @mantle;
@@ -212,10 +219,23 @@ border-color: @surface1;
     border-color: @surface1;
 }
 .open .dropdown-menu {
-    background-color: @base;
+    background-color: @surface0;
+      }
+.dropdown-menu li {
+color: @text;
+      }
+.menu-vertical .menu-option .menu-option-content.active, .menu-vertical .menu-option .menu-option-content:active, .menu-vertical .menu-option .menu-option-content:focus, .menu-vertical .menu-option .menu-option-content:hover {
+box-shadow: inset 4px 0 0 0 @blue
+      }
+.btn-alert-xs {
+border-color: @red;
+color: @red;
       }
 .footer .text-footer-nav, .footer .text-footer-nav:active, .footer .text-footer-nav:link, .footer .text-footer-nav:visited {
     color: @overlay2;
+      }
+.menu-vertical .menu-option .menu-option-content {
+color: @text;
       }
  .footer .text-footer-nav.privacy,  .footer .text-footer-nav.privacy:active,  .footer .text-footer-nav.privacy:link,  .footer .text-footer-nav.privacy:visited,  .footer .text-footer-nav:focus,  .footer .text-footer-nav:hover {
 color: @text
@@ -253,10 +273,14 @@ background-color: @base;
   fill: @accent-color !important;
 }
     }
-.btn-growth-xs, .btn-growth-xs:hover {
+.btn-growth-xs, .btn-growth-xs:hover, .btn-growth-xs:active {
 background-color: @green;
 border-color: @green;
-text: @text;
+color: @mantle;
+      }
+.profile-avatar-right .profile-avatar-mask {
+background-color: @surface0;
+color: @text;
       }
 .btn-control-xs {
 border-color: @overlay2;
