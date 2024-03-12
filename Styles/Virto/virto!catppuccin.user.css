@@ -204,7 +204,7 @@
          #banner {
              background-image: url(https://i.imgvibe.com/2023/12/29/1000131893.png)
          }
-         div[style="border: 1px solid green;border-radius: 10px;background-color: green;color: limegreen;padding: 3px;margin-top:5px; width:50%; text-align:center;"] {
+         div[style="border: 1px solid green;border-radius: 10px;background-color: green;color: limegreen;padding: 3px;margin-top:5px; width:50%; text-align:center;"], button[style="color: #fff;background-color:green; margin:auto;margin: -135px;position: absolute;"] {
              background-color: @green!important;
              border-color: @green!important;
              color: @mantle!important;
@@ -282,10 +282,11 @@
          select,
          .button-style,
          .button,
-         :root input,
-         :root textarea,
-         :root td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
-             color: @text
+         input,
+         textarea,
+         td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
+             color: @text;
+             background-color: @surface0;
          }
          div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"],
          .fa-flag,
@@ -320,6 +321,10 @@
              border-color: @mantle!important;
              background-color: @surface0;
          }
+         img[style*="border: 1px solid #000;background-color: #FDFDFD;width: 118px;height: 118px;"] {
+         background-color: @subtext1!important;
+         border-color: @mantle!important
+         }
          button[style="color: #fff;background-color:red; margin:auto;margin: -135px;position: absolute;"] {
              border-color: @mantle!important;
              background-color: @red!important;
@@ -340,7 +345,7 @@
              color: @text!important;
          }
          span {
-             color: @subtext1!important;
+             color: @subtext0!important;
          }
          p[style="color:#44A4EE;"] {
              color: @accent-color!important;
@@ -410,7 +415,7 @@
          }
          .profile-display {
              border-color: @mantle;
-             background-color: @text;
+             background-color: @subtext0;
          }
          body {
              background-image: linear-gradient(@crust, @crust)!important;
