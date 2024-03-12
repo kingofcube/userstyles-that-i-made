@@ -1,0 +1,353 @@
+ /* ==UserStyle==
+@name virto!rosepine
+@namespace https://github.com/kingofcube/userstyles-that-i-made/Styles/Virto
+@homepageURL https://github.com/kingofcube/userstyles-that-i-made
+@version 0.0.6
+@updateURL https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/Virto/virto!rosepine.user.css
+@description Soho vibes for Virto!
+@author rosepine, King Cube, Rosé Pine
+@license MIT
+
+@preprocessor less
+@var select lightFlavor "Light Flavor" ["rosepine:Rosé Pine", "moon:Rosé Pine Moon", "dawn:Rosé Pine Dawn*"]
+@var select darkFlavor "Dark Flavor" ["rosepine:Rosé Pine*", "moon:Rosé Pine Moon", "dawn:Rosé Pine Dawn"]
+@var select accentColor "Accent" ["love:Love", "gold:Gold", "rose:Rose*", "pine:Pine", "foam:Foam", "iris:Iris"]
+==/UserStyle== */
+ @-moz-document domain('mtndew2.serv00.net') {
+     /* prettier-ignore */
+     @rosepine: {
+         @dawn: {
+             @love: #b4637a;
+             @gold: #ea9d34;
+             @rose: #d7827e;
+             @pine: #286983;
+             @foam: #286983;
+             @iris: #907aa9;
+             @text: #575279;
+             @subtle: #797593;
+             @muted: #9893a5;
+             @overlay: #f2e9e1;
+             @surface: #fffaf3;
+             @base: #f4ede8;
+             @hlightlow: #faf4ed;
+             @hlightmed: #faf4ed;
+             @hlighthigh: #faf4ed;
+         }
+         ;
+         @moon: {
+             @love: #eb6f92;
+             @gold: #f6c177;
+             @rose: #ebbcba;
+             @pine: #31748f;
+             @foam: #9ccfd8;
+             @iris: #c4a7e7;
+             @text: #e0def4;
+             @subtle: #908caa;
+             @muted: #6e6a86;
+             @overlay: #393552;
+             @surface: #2a273f;
+             @base: #232136;
+             @hlightlow: #2a283e;
+             @hlightmed: #44415a;
+             @hlighthigh: #56526e;
+         }
+         ;
+         @rosepine: {
+             @love: #eb6f92;
+             @gold: #f6c177;
+             @rose: #ebbcba;
+             @pine: #31748f;
+             @foam: #9ccfd8;
+             @iris: #c4a7e7;
+             @text: #e0def4;
+             @subtle: #908caa;
+             @muted: #6e6a86;
+             @overlay: #26233a;
+             @surface: #1f1d2e;
+             @base: #191724;
+             @hlightlow: #21202e;
+             @hlightmed: #403d52;
+             @hlighthigh: #524f67;
+;
+          }
+;
+     }
+
+     #rosepine(@lookup, @accent) {
+         @love: @rosepine[@@lookup][@love];
+         @gold: @rosepine[@@lookup][@gold];
+         @rose: @rosepine[@@lookup][@rose];
+         @pine: @rosepine[@@lookup][@pine];
+         @foam: @rosepine[@@lookup][@foam];
+         @iris: @rosepine[@@lookup][@iris];
+         @overlay: @rosepine[@@lookup][@overlay];
+         @text: @rosepine[@@lookup][@text];
+             @subtle: @rosepine[@@lookup][@subtle];
+             @muted: @rosepine[@@lookup][@muted];
+         @surface: @rosepine[@@lookup][@surface];
+         @base: @rosepine[@@lookup][@base];
+         @hlightlow: @rosepine[@@lookup][@hlightlow];
+         @hlightmed: @rosepine[@@lookup][@hlightmed];
+         @hlighthigh: @rosepine[@@lookup][@@accent];
+
+
+         --background-color: @hlightlow;
+         --element: @base;
+         --light-element: @surface;
+         --lighter-element: @surface;
+         --border: @hlightmed;
+         --light-border: @surface;
+         --button: @surface;
+         --color: @rose;
+
+         #banner {
+             background-image: url(https://i.imgvibe.com/2023/12/29/1000131893.png)
+         }
+         div[style="border: 1px solid pine;border-radius: 10px;background-color: pine;color: limepine;padding: 3px;margin-top:5px; width:50%; text-align:center;"], button[style="color: #fff;background-color:pine; margin:auto;margin: -135px;position: absolute;"] {
+             background-color: @pine!important;
+             border-color: @pine!important;
+             color: @hlightmed!important;
+         }
+         table[style="background-color: #8494aa;"] {
+             background-color: @surface!important;
+         }
+         table[style="background-color:#000; margin-top:30px;"] {
+             background-color: @hlightmed!important;
+         }
+         #snavbar {
+             background-color: @hlightmed!important;
+         }
+         h5[style="text-align:center;background-color:pine;color:white;margin-top:5px; margin-left: 0px; margin-right: 0px; padding-top: 5px; padding-bottom: 5px;"] {
+             background-color: @pine!important;
+             color: @hlightmed!important;
+         }
+         .thread-title {
+             background-color: @surface!important;
+         }
+         .shopSideBarButton1 {
+             background-color: @hlightlow!important;
+             border-color: @hlightmed!important;
+         }
+         #subsect {
+             border-color: @surface!important
+         }
+         #rad {
+             background-color: @surface;
+             border: @hlighthigh;
+         }
+         input[style="border:1px solid #c3cdd2; background-color:Orange; color:#FFF;"],
+         input[style="border:1px solid #c3cdd2; background-color:pine; color:#FFF;"] {
+             background-color: @rose!important;
+             color: @hlightmed!important
+         }
+         h2 {
+             color: @subtle!important;
+         }
+         .dropdown-content a:hover {
+             background-color: @rose!important;
+             color: @hlightmed!important;
+         }
+         .dropdown-content {
+             background-color: @base;
+         }
+         .dropbtn:hover,
+         .dropbtn:focus {
+             background-color: @surface;
+         }
+         .shopSideBarButton {
+             color: @subtle!important;
+         }
+         .offline,
+         i[style="color:#DD0000;font-size:15px;"] {
+             color: @love!important;
+         }
+         .online {
+             color: @pine!important;
+         }
+         input[style="background-color: #03c303"],
+         a[style="font-size:12px;background-color: #03c303;padding:4px 5px 4px 5px;text-decoration:none;"] {
+             background-color: @rose!important;
+             border-color: @hlightmed!important;
+             color: @hlightmed!important;
+         }
+         input::placeholder {
+             color: @muted
+         }
+         input[type="button"],
+         input[type="submit"],
+         input[type="reset"],
+         input[type="file"]::-webkit-file-upload-button,
+         button:not(.colorPallete),
+         select,
+         .button-style,
+         .button,
+         input,
+         textarea,
+         td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
+             color: @text;
+             background-color: @surface;
+         }
+         div[style="width: 77%;float:left;word-wrap: break-word;"] span[style="color: #444;"],
+         .fa-flag,
+         .fa-pencil,
+         .fa-refresh,
+         .fa-quote-right {
+             color: @rose!important;
+         }
+         h3 {
+             color: @subtle!important;
+         }
+         h4 {
+             color: @muted!important;
+         }
+         h5 {
+             color: @text!important;
+         }
+         h6 {
+             color: @muted!important;
+         }
+         a,
+         a span {
+             color: @text!important;
+         }
+         input[type="button" i],
+         input[type="submit" i],
+         input[type="reset" i],
+         input[type="file" i]::-webkit-file-upload-button,
+         button,
+         select,
+         .button-style {
+             border-color: @hlightmed!important;
+             background-color: @surface;
+         }
+         img[style*="border: 1px solid #000;background-color: #FDFDFD;width: 118px;height: 118px;"] {
+         background-color: @subtle!important;
+         border-color: @hlightmed!important
+         }
+         button[style="color: #fff;background-color:love; margin:auto;margin: -135px;position: absolute;"] {
+             border-color: @hlightmed!important;
+             background-color: @love!important;
+             color: @hlightmed!important;
+         }
+         button[style="color: #fff;background-color:pine;position:absolute;margin:5px;"] {
+             border-color: @hlightmed!important;
+             background-color: @pine!important;
+             color: @hlightmed!important;
+         }
+         i[style=" font-size: 13px; font-weight: 600; color: #ff5555;"] {
+             color: @love!important;
+         }
+         .clr-picker {
+             background-color: @hlightmed
+         }
+         p {
+             color: @text!important;
+         }
+         span {
+             color: @muted!important;
+         }
+         p[style="color:#44A4EE;"] {
+             color: @rose!important;
+         }
+         .spoiler {
+             background-color: @surface;
+             color: @text;
+         }
+         td {
+             background-color: @base
+         }
+         th {
+             background-color: lighten(@surface, 10%)
+         }
+         table[style="background-color:#b0c4de;"] {
+             background-color: @overlay!important
+         }
+         p.description,
+         .fa-thumb-tack,
+         .fa-lock,
+         .fa-pencil,
+         .fa-refresh {
+             color: @rose
+         }
+         #box,
+         #info,
+         #navbar,
+         #footer {
+             background: var(--element)!important;
+             border-color: var(--border);
+             color: @text!important;
+         }
+         input,
+         textarea,
+         td[style="padding: 8px 0px 0px 8px;background: #f8f9ff;word-break:break-word;color:#333;"] {
+             color: @text!important;
+         }
+         td {
+             color: @text!important;
+         }
+         .blue-button {
+             background-color: @rose;
+             border-bottom-color: @surface;
+         }
+         #subsect {
+             border-color: @surface;
+         }
+         #shopItem {
+             background-color: @surface;
+             border-color: @hlightmed;
+         }
+         #news {
+             background-color: @surface
+         }
+         input[type="submit" i],
+         .button-style,
+         input[type="button"],
+         input[type="submit"],
+         input[type="reset"],
+         input[type="file"]::-webkit-file-upload-button,
+         button:not(.colorPallete),
+         select,
+         .button-style,
+         .button,
+         input[type="button" i] {
+             border-color: @hlightmed!important;
+         }
+         .profile-display {
+             border-color: @hlightmed;
+             background-color: @muted;
+         }
+         body {
+             background-image: linear-gradient(@hlightlow, @hlightlow)!important;
+             background-color: @hlightlow!important
+         }
+         table[style="background-color:#000; border:dotted blue;"] {
+             border-color: @rose!important;
+             background-color: @hlightlow!important
+         }
+         /* Currency */
+         .shopDesc .fa-money,
+         [style="color:pine;"] {
+             color: @rose!important;
+         }
+         .shopDesc .fa-circle,
+         [style="color:Orange;"] {
+             color: @rose!important;
+         }
+         /* Forum */
+         .forumColumn:nth-of-type(2n+0) td {
+             background-color: @surface!important;
+         }
+     }
+
+     @media (prefers-color-scheme: light) {
+         :root {
+             #rosepine(@lightFlavor, @accentColor);
+         }
+     }
+     @media (prefers-color-scheme: dark) {
+         :root {
+             #rosepine(@darkFlavor, @accentColor);
+         }
+     }
+ }
+ // vim:ft=less
