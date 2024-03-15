@@ -400,6 +400,14 @@
          #news {
              background-color: @surface0
          }
+         a.button-style, input[style="padding:5px 7px 5px 5px; background-color:green;"], button[style="padding:5px 7px 5px 5px; background-color:#008000;"] {
+         background-color: @green!important;
+         color: @mantle!important;
+         }
+         input[style="padding:5px 7px 5px 5px; background-color:#FF3333;"] {
+         background-color: @red!important;
+         color: @mantle!important
+         }
          input[type="submit" i],
          .button-style,
          input[type="button"],
