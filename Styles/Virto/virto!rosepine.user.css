@@ -173,6 +173,14 @@
          input::placeholder {
              color: @muted
          }
+                  a.button-style, input[style="padding:5px 7px 5px 5px; background-color:green;"], button[style="padding:5px 7px 5px 5px; background-color:#008000;"] {
+         background-color: @pine!important;
+         color: @hlightlow!important;
+         }
+         input[style="padding:5px 7px 5px 5px; background-color:#FF3333;"] {
+         background-color: @rose!important;
+         color: @hlightlow!important
+         }
          input[type="button"],
          input[type="submit"],
          input[type="reset"],
