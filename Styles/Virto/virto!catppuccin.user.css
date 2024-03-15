@@ -451,6 +451,10 @@
          img[style*="background-image:url('speciale_big.png');"] {
              background-image: url(https://i.imgvibe.com/2023/12/25/1000131855.png)!important;
          }
+         /* Text */
+         h1 {
+         color: @subtext1
+         }
      }
 
      @media (prefers-color-scheme: light) {
