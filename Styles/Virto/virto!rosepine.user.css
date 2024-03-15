@@ -337,6 +337,10 @@
          .forumColumn:nth-of-type(2n+0) td {
              background-color: @surface!important;
          }
+         /* Text */
+         h1 {
+         color: @subtle
+         }
      }
 
      @media (prefers-color-scheme: light) {
