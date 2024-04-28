@@ -20,6 +20,10 @@ color: hsl(106, 98%, 79%)
     .p-footer-rssLink > span {
 background-color: hsl(106, 100%, 37%)
 }
+    .bbTable > table > thead > tr > th, .bbTable > table > tbody > tr > th {
+background-color: #3c8028;
+border-bottom-color:  hsl(106, 80%, 61%)
+}
     .resourceSidebarGroup-title {
 color:  hsl(106, 80%, 61%)
 }
