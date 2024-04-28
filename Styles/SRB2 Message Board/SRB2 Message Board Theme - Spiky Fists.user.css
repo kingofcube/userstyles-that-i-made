@@ -71,7 +71,8 @@
     .fr-desktop .fr-command.fr-expanded:not(.fr-table-cell),
     .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover,
     .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:hover,
-    .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover {
+    .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+    .p-sectionLinks-list .p-navEl.is-menuOpen {
         background-color: rgba(106, 159, 80, .15);
     }
     .fr-toolbar .fr-command.fr-btn.fr-active:not(.fr-disabled) {
