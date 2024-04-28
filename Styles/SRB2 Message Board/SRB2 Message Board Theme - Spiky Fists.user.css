@@ -20,6 +20,9 @@ color: hsl(106, 98%, 79%)
     .p-footer-rssLink > span {
 background-color: hsl(106, 100%, 37%)
 }
+    .resourceSidebarGroup-title {
+color:  hsl(106, 80%, 61%)
+}
 a:hover {
 color: hsl(106, 55%, 65%)
     }
