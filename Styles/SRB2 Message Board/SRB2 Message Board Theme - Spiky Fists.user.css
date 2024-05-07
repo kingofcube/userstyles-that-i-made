@@ -22,7 +22,8 @@
     .block-textHeader,
     .reaction--1 .reaction-text,
     .tabs--standalone,
-    .menu-header {
+    .menu-header,
+    .memberTooltip-name {
         color: hsl(106, 98%, 79%)
     }
     a:hover {
