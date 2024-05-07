@@ -3,7 +3,7 @@
 @namespace      github.com/openstyles/stylus
 @homepageURL https://github.com/kingofcube/userstyles-that-i-made
 @updateURL     https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/SRB2%20Message%20Board/SRB2%20Message%20Board%20Theme%20-%20Spiky%20Fists.user.css
-@version        1.1
+@version        1.2
 @description    Made with love <3
 @author         King cube
 ==/UserStyle== */
@@ -71,8 +71,7 @@
     .fr-desktop .fr-command.fr-expanded:not(.fr-table-cell),
     .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover,
     .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:hover,
-    .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover,
-    .p-sectionLinks-list .p-navEl.is-menuOpen {
+    .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover {
         background-color: rgba(106, 159, 80, .15);
     }
     .fr-toolbar .fr-command.fr-btn.fr-active:not(.fr-disabled) {
@@ -262,6 +261,9 @@
         color: hsl(106, 98%, 79%)
     }
     /* Misc */
+    .menu-row.menu-row--highlighted, .memberTooltip-header {
+        background-color: #3c8028;
+    }
     .reactionsBar {
         border-left-color: hsl(106, 58%, 60%);
     }
@@ -302,7 +304,7 @@
         color: hsl(106, 97%, 67%);
         border-color: hsl(106, 97%, 67%);
     }
-    .label.label--primary {
+    .label.label--primary, a.label.label--primary:hover, a:hover .label.label--primary {
         color: hsl(106, 98%, 79%);
         background-color: #3c8028;
         border-color: hsl(106, 98%, 79%)
