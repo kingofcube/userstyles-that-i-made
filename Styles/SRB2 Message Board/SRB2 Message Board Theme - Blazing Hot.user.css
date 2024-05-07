@@ -3,7 +3,321 @@
 @namespace      github.com/openstyles/stylus
 @homepageURL https://github.com/kingofcube/userstyles-that-i-made
 @updateURL     https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/SRB2%20Message%20Board/SRB2%20Message%20Board%20Theme%20-%20Blazing%20Hot.user.css
-@version        1.0
+@version        1.1
+@description    Made with love <3
+@author         King cube
+==/UserStyle== */
+@-moz-document domain("mb.srb2.org") {
+    /* Text and Link Colors */
+    a,
+    .p-footer a,
+    .p-sectionLinks,
+    .block-minorHeader,
+    .button.button--link,
+    a.button.button--link,
+    .block-formSectionHeader,
+    .menu--emoji .menu-header,
+    .menu--gif .menu-header,
+    .tabs--standalone .tabs-tab:hover,
+    .block-textHeader,
+    .reaction--1 .reaction-text,
+    .tabs--standalone,
+    .menu-header,
+    .memberTooltip-name {
+        color: hsl(268, 100%, 86%)
+    }
+    a:hover {
+        color: hsl(268, 100%, 80%)
+    }
+    /* Main */
+    .p-header-logo.p-header-logo--image img {
+        content: url(https://i.imgvibe.com/2024/04/29/1000136313.png)
+    } 
+    .p-nav {
+        background-color: #5b00c9;
+        color: #d8b7ff
+    }
+    .p-nav-list .p-navEl {
+        color: #d8b7ff
+    }
+    .p-nav-list .p-navEl.is-selected {
+        color: #d2abff
+    }
+    .p-footer {
+        background-color: #9844ff;
+        color: #d8b7ff
+    }
+    /* ChatBox */
+    .emojiList > li:hover, .emojiList > li:focus {
+        background-color: #ddc1ff 
+    }
+    .button.button--plain, a.button.button--plain {
+        color: #e5d0ff
+    }
+    .input,
+    .fr-box.fr-basic,
+    .codeEditor.CodeMirror {
+        background-color: #2a005f
+    }
+    .fr-box.fr-basic.is-focused .fr-toolbar.fr-top {
+        background: linear-gradient(0deg, hsla(267, 50%, 44%, 0), hsl(267, 55%, 23%));
+    }
+    .fr-toolbar .fr-more-toolbar,
+    .fr-toolbar .fr-command.fr-btn.fr-open:not(:hover):not(:focus):not(:active) {
+        background-color: #2a005f
+    }
+    .fr-desktop .fr-command:hover:not(.fr-table-cell),
+    .fr-desktop .fr-command:focus:not(.fr-table-cell),
+    .fr-desktop .fr-command.fr-btn-hover:not(.fr-table-cell),
+    .fr-desktop .fr-command.fr-expanded:not(.fr-table-cell),
+    .fr-toolbar .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+    .fr-popup .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+    .fr-modal .fr-command.fr-btn.fr-dropdown.fr-active:hover,
+    .p-sectionLinks-list .p-navEl.is-menuOpen {
+        background-color: rgba(267, 159, 80, .15);
+    }
+    .fr-toolbar .fr-command.fr-btn.fr-active:not(.fr-disabled) {
+        color: hsl(267, 58%, 60%);
+    }
+    .input:focus,
+    .input.is-focused,
+    .inputGroup:focus-within,
+    #XF .fr-box.fr-basic.is-focused,
+    .codeEditor.CodeMirror.CodeMirror-focused {
+        --input-border-heavy: hsl(267, 98%, 84%);
+        --input-border-light: hsl(267, 98%, 76%);
+    }
+    /* Headers */
+    .block-header,
+    .overlay-title {
+        background: linear-gradient(0deg, hsl(267, 65%, 55%), hsl(267, 92%, 26%));
+    }
+    .block-filterBar,
+    .menu-header {
+        background: linear-gradient(0deg, hsl(267, 100%, 35%), hsl(267, 100%, 18%));
+    }
+    .menu-tabHeader {
+        color: hsl(267, 98%, 79%);
+        background: linear-gradient(0deg, hsl(267, 50%, 44%), hsl(267, 55%, 23%));
+    }
+    .menu-tabHeader .tabs-tab:hover {
+        color: hsl(267, 78%, 54%)
+    }
+    .menu-tabHeader .tabs-tab.is-active {
+        color: hsl(267, 55%, 82%)
+    }
+    .block-tabHeader {
+        color: hsl(267, 98%, 79%);
+        background-color: #5b00c9
+    }
+    /* Buttons */
+    .pageNav-page,
+    .pageNav-jump {
+        background: linear-gradient(0deg, hsl(267, 100%, 35%), hsl(267, 100%, 9%));
+        color: hsl(267, 98%, 79%)
+    }
+    .pageNav-jump:hover,
+    .pageNav-jump:active,
+    .pageNav-page:hover,
+    .pageNav-page:active {
+        background-color: hsl(267, 89%, 29%)
+    }
+    .button,
+    a.button {
+        background: #5b00c9;
+        border-color: #6403d8;
+    }
+    .button.button--scroll,
+    a.button.button--scroll {
+        background-color: hwb(267 22% 26% / .75)
+    }
+    .button.button--primary,
+    a.button.button--primary {
+        background: hwb(267 37% 17%);
+        border-color: hsl(267, 69%, 61%) hsl(267, 70%, 71%) hsl(267, 70%, 71%) hsl(267, 70%, 61%);
+    }
+    .button:not(.button--splitTrigger):hover,
+    a.button:not(.button--splitTrigger):hover,
+    .button.button--splitTrigger > .button-text:hover,
+    a.button.button--splitTrigger > .button-text:hover,
+    .button.button--splitTrigger > .button-menu:hover,
+    a.button.button--splitTrigger > .button-menu:hover,
+    .button:not(.button--splitTrigger):focus,
+    a.button:not(.button--splitTrigger):focus,
+    .button.button--splitTrigger > .button-text:focus,
+    a.button.button--splitTrigger > .button-text:focus,
+    .button.button--splitTrigger > .button-menu:focus,
+    a.button.button--splitTrigger > .button-menu:focus,
+    .button:not(.button--splitTrigger):active,
+    a.button:not(.button--splitTrigger):active,
+    .button.button--splitTrigger > .button-text:active,
+    a.button.button--splitTrigger > .button-text:active,
+    .button.button--splitTrigger > .button-menu:active,
+    a.button.button--splitTrigger > .button-menu:active {
+        background-color: hsl(267, 54%, 30%)
+    }
+    .button.button--primary:not(.button--splitTrigger):hover,
+    a.button.button--primary:not(.button--splitTrigger):hover,
+    .button.button--primary.button--splitTrigger > .button-text:hover,
+    a.button.button--primary.button--splitTrigger > .button-text:hover,
+    .button.button--primary.button--splitTrigger > .button-menu:hover,
+    a.button.button--primary.button--splitTrigger > .button-menu:hover,
+    .button.button--primary:not(.button--splitTrigger):focus,
+    a.button.button--primary:not(.button--splitTrigger):focus,
+    .button.button--primary.button--splitTrigger > .button-text:focus,
+    a.button.button--primary.button--splitTrigger > .button-text:focus,
+    .button.button--primary.button--splitTrigger > .button-menu:focus,
+    a.button.button--primary.button--splitTrigger > .button-menu:focus,
+    .button.button--primary:not(.button--splitTrigger):active,
+    a.button.button--primary:not(.button--splitTrigger):active,
+    .button.button--primary.button--splitTrigger > .button-text:active,
+    a.button.button--primary.button--splitTrigger > .button-text:active,
+    .button.button--primary.button--splitTrigger > .button-menu:active,
+    a.button.button--primary.button--splitTrigger > .button-menu:active {
+        background-color: hsl(267, 52%, 53%)
+    }
+    .bbTable > table > thead > tr > th,
+    .bbTable > table > tbody > tr > th {
+        background-color: #2a005f;
+        border-bottom-color: hsl(267, 80%, 61%)
+    }
+    .resourceSidebarGroup-title {
+        color: hsl(267, 80%, 61%)
+    }
+    /* Icons */
+    .p-header {
+        color: hsl(268, 100%, 86%)
+    }
+    .p-footer-rssLink > span {
+        background-color: hsl(267, 100%, 37%)
+    }
+    .no-icon i::before,
+    .node-icon i::before,
+    .file-typeIcon {
+        color: #c191fc
+    }
+    .formRow .iconic > i,
+    .inputGroup .iconic > i,
+    .inputChoices .iconic > i,
+    .block-footer .iconic > i,
+    .dataList-cell .iconic > i,
+    .message-cell--extra .iconic > i,
+    .formRow.dataList-cell--fa > a > i,
+    .inputGroup.dataList-cell--fa > a > i,
+    .inputChoices.dataList-cell--fa > a > i,
+    .block-footer.dataList-cell--fa > a > i,
+    .dataList-cell.dataList-cell--fa > a > i,
+    .message-cell--extra.dataList-cell--fa > a > i,
+    .formRow .iconic svg,
+    .inputGroup .iconic svg,
+    .inputChoices .iconic svg,
+    .block-footer .iconic svg,
+    .dataList-cell .iconic svg,
+    .message-cell--extra .iconic svg,
+    .formRow.dataList-cell--fa > a svg,
+    .inputGroup.dataList-cell--fa > a svg,
+    .inputChoices.dataList-cell--fa > a svg,
+    .block-footer.dataList-cell--fa > a svg,
+    .dataList-cell.dataList-cell--fa > a svg,
+    .message-cell--extra.dataList-cell--fa > a svg {
+        color: #c191fc
+    }
+    /* Notices */
+    .notice.notice--primary {
+        background-color: #2a005f;
+        color: hsl(267, 55%, 82%)
+    }
+    .notice.notice--accent {
+        background-color: #2d631d;
+        color: hsl(267, 100%, 89%)
+    }
+    .notice.notice--accent a:not(.button--notice) {
+        color: hsl(267, 100%, 89%);
+    }
+    .block-header .block-desc {
+        color: hsla(267, 100%, 74%, .7)
+    }
+    .menu-arrow {
+        border-bottom-color: hsl(267, 72%, 63%)
+    }
+    .p-navgroup-link.is-menuOpen,
+    .p-nav-list .p-navEl.is-menuOpen {
+        background: hsla(267, 100%, 66%, .5)
+    }
+    /* Menus */
+    .menu-content {
+        border-top-color: hsl(267, 72%, 63%)
+    }
+    .menu-tabHeader .tabs-tab.is-active {
+        border-color: hsl(267, 72%, 63%)
+    }
+    .menu-linkRow.is-selected,
+    .menu-linkRow:hover,
+    .menu-linkRow:focus,
+    .blockLink.is-selected,
+    .menu-linkRow.is-selected.is-selected,
+    .menu-linkRow:hover.is-selected,
+    .menu-linkRow:focus.is-selected {
+        background-color: #5b00c9;
+        border-color: hsla(267, 54%, 52%, .5);
+        color: hsl(267, 98%, 79%)
+    }
+    /* Misc */
+    .menu-row.menu-row--highlighted, .memberTooltip-header {
+        background-color: #5b00c9;
+    }
+    .reactionsBar {
+        border-left-color: hsl(267, 58%, 60%);
+    }
+    .kl_amdp_merge_message {
+        border-color: #5b00c9;
+        color: hsl(267, 98%, 79%)
+    }
+    .menu-row.menu-row--clickable:hover {
+        background-color: #5b00c9;
+    }
+    .formSubmitRow-bar {
+        background-color: #5b00c9;
+    }
+    .blockLink:hover {
+        background-color: #5b00c9
+    }
+    .block-tabHeader .tabs-tab:not(.is-readonly):hover {
+        background-color: hsl(267, 54%, 40%);
+        color: hsl(267, 98%, 79%)
+    }
+    .block-tabHeader .tabs-tab.is-active,
+    .block-tabHeader .tabs > input:checked + .tabs-tab--radio {
+        border-color: hsl(267, 72%, 63%)
+    }
+    .p-nav-list .p-navEl:not(.is-selected):not(.is-menuOpen):hover,
+    .p-nav-list .p-navEl:not(.is-selected):not(.is-menuOpen) .p-navEl-link:hover,
+    .p-nav-list .p-navEl:not(.is-selected):not(.is-menuOpen) .p-navEl-splitTrigger:hover {
+        background: hsla(267, 98%, 79%, .06)
+    }
+    .memberHeader-main {
+        background-color: #5b00c9
+    }
+    .block-minorTabHeader .tabs-tab.is-active {
+        color: hsl(267, 98%, 79%);
+        border-color: hsl(267, 98%, 79%)
+    }
+    .tabs--standalone .tabs-tab.is-active {
+        color: hsl(267, 97%, 67%);
+        border-color: hsl(267, 97%, 67%);
+    }
+    .label.label--primary, a.label.label--primary:hover, a:hover .label.label--primary {
+        color: hsl(267, 98%, 79%);
+        background-color: #5b00c9;
+        border-color: hsl(267, 98%, 79%)
+    }
+}
+/* ==UserStyle==
+@name           SRB2 Message Board Theme - Blazing Hot
+@namespace      github.com/openstyles/stylus
+@homepageURL https://github.com/kingofcube/userstyles-that-i-made
+@updateURL     https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/SRB2%20Message%20Board/SRB2%20Message%20Board%20Theme%20-%20Blazing%20Hot.user.css
+@version        1.1
 @description    Made with love <3
 @author         King cube
 ==/UserStyle== */
