@@ -3,7 +3,7 @@
 @namespace      github.com/openstyles/stylus
 @homepageURL https://github.com/kingofcube/userstyles-that-i-made
 @updateURL     https://github.com/kingofcube/userstyles-that-i-made/raw/main/Styles/SRB2%20Message%20Board/SRB2%20Message%20Board%20Theme%20-%20Blazing%20Hot.user.css
-@version        1.1
+@version        1.0
 @description    Made with love <3
 @author         King cube
 ==/UserStyle== */
@@ -173,7 +173,7 @@
     a.button.button--primary.button--splitTrigger > .button-text:active,
     .button.button--primary.button--splitTrigger > .button-menu:active,
     a.button.button--primary.button--splitTrigger > .button-menu:active {
-        background-color: #64c547
+        background-color: hsl(267, 52%, 53%)
     }
     .bbTable > table > thead > tr > th,
     .bbTable > table > tbody > tr > th {
