@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Nitter Customize
 @namespace      https://github.com/kingofcube/userstyles-that-i-made
-@version        1.0.1
-@description    ima let you cook
+@version        1.0.2
+@description    I'll let you cook instead.
 @author         King_Cube
 @advanced color bg_color "BG Color" #0f0f0f
 @advanced color bg_elem "BG Elements" #161616
@@ -18,7 +18,7 @@
 @advanced color verf_color "Verified Icon" #1DA1F2
 ==/UserStyle== */
 
-@-moz-document domain("nitter.unixfox.eu"), domain("nitter.mint.lgbt"), domain("nitter.net"), domain("nitter.moomoo.me"), domain("nitter.esmailelbob.xyz"), domain("nitter.poast.org"), domain("nitter.cz"), domain("nitter.privacydev.net"), domain("nitter.projectsegfau.lt"), domain("nitter.in.projectsegfau.lt"), domain("nitter.us.projectsegfau.lt"), domain("nitter.eu.projectsegfau.lt"), domain("nitter.soopy.moe"), domain("nitter.rawbit.ninja"), domain("nitter.d420.de") {
+@-moz-document domain("xcancel.com"), domain("tw.counter-strike.gay") {
 body {
     --bg_color: /*[[bg_color]]*/;
     --fg_color: /*[[text_color]]*/;
